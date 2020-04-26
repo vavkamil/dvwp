@@ -1,7 +1,8 @@
 # Damn Vulnerable WordPress
 
 Playground for WordPress hacking and [wpscan](https://github.com/wpscanteam/wpscan) testing.
-*DO NOT EXPOSE THIS TO INTERNET!*
+
+**DO NOT EXPOSE THIS TO INTERNET!**
 
 ## Installation
 
