@@ -44,7 +44,7 @@ Feel free to contribute with pull requests ;)
   - CVE-2020-10564
 
 * [WP Advanced Search < 3.3.4 - Unauthenticated Database Access and Remote Code Execution](https://wpvulndb.com/vulnerabilities/10115)
-  - 
+  - no CVE
 
 * [Social Warfare <= 3.5.2 - Unauthenticated Arbitrary Settings Update](https://wpvulndb.com/vulnerabilities/9238)
   - CVE-2019-9978
@@ -52,9 +52,6 @@ Feel free to contribute with pull requests ;)
 * [Backup and Staging by WP Time Capsule < 1.21.16 - Authentication Bypass](https://wpvulndb.com/vulnerabilities/10010)
   - CVE-2020-8771
   - NOT WORKING RIGHT NOW
-
-* []()
-  - 
 
 ### Otherz
 
