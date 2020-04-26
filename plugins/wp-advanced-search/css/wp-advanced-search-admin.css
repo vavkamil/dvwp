@@ -1,0 +1,22 @@
+.advanced-search-admin {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.advanced-search-admin .icon {width:32px; height:32px; background:url('../img/icon.png'); background-size:100%;}
+.advanced-search-admin .text{line-height:1.7em; margin-bottom:.8em; color:#555;}
+.advanced-search-admin .clear {clear:both;}
+.advanced-search-admin h3 {text-transform:uppercase; font-size:1.3em; font-weight:lighter;}
+.advanced-search-admin h4 {text-transform:uppercase; font-size:1.2em; font-weight:lighter; color:#555;}
+.advanced-search-admin .block {margin-top:1em;}
+.advanced-search-admin .block .col {float:left; width:40%; margin-right:5%;}
+.advanced-search-admin .block .tr label {color:#555; width:62%; margin-left:2%; margin-top:-2px; display:inline-block;}
+.advanced-search-admin .block .tr2 label {color:#555; width:100%; margin:-2px 0 .5em; display:inline-block;}
+.advanced-search-admin .block .tr input, .advanced-search-admin .block select {color:#555; display:inline-block; width:34%; border:1px solid #777; padding:.2em;}
+.advanced-search-admin .block .tr input.file {width:50%;}
+.advanced-search-admin .block .tr input.submit {color:#fff; height:30px; padding-bottom:1px; background:#0085ba none repeat scroll 0 0; box-shadow:0 1px 0 #006799; text-decoration:none; text-shadow:0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;}
+.advanced-search-admin .block textarea {color:#555; display:inline-block; width:100%; max-width:100%; min-width:50%; min-height:4em; border:1px solid #777; padding:.2em;}
+.advanced-search-admin .block input:hover, .advanced-search-admin .block select:hover {box-shadow:0.5px .5px 1px #777;}
+.advanced-search-admin .block .tr, .advanced-search-admin .block .tr2 {background-color:#eee; padding:.7em; border-radius:6px; border:1px solid #777; box-shadow:1px 1px 3px #777;}
+.advanced-search-admin .block .tr em, .advanced-search-admin .block .tr2 em {font-size:.9em; display:block; margin:.4em 0 0 .3em; color:#0071A1; font-weight:bold;}
+.advanced-search-admin .block .tr img {width:100%; border:1px solid #ddd;}
+.advanced-search-admin .block .tr p:hover {background-color:#e5e5e5; box-shadow:1px 1px 4px #777;}
+.advanced-search-admin .block .tr-info {padding:0 1em; font-size:.9em; font-style:italic;}
+.advanced-search-admin .block .autoCompleteDelete,.advanced-search-admin .block .autoCorrectDelete {text-indent:2em; background:url(../img/warning.png) no-repeat left center; color:#ffa221;}
+.advanced-search-admin #deleteSelect {width:60%; font-size:.9em}

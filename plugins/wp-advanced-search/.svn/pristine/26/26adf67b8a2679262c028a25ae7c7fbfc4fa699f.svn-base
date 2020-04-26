@@ -1,0 +1,11 @@
+.pagination-block {margin:1.8em 0 0 0;line-height:2em;text-align:center;font-size:.85em}
+.pagination-block a, .pagination-block span {padding:0.2em 0.5em 0.3em;}
+.pagination-block a {color:#656565;text-decoration:none;background:#FFF;padding:.3em .6em;-moz-box-shadow:1px 1px 3px 0px #656565;-webkit-box-shadow:1px 1px 3px 0px #656565;-o-box-shadow:1px 1px 3px 0px #656565;box-shadow:1px 1px 3px 0px #656565;filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=3);-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+.pagination-block a:hover {color:#222;-moz-box-shadow:1px 1px 3px 0px #222;-webkit-box-shadow:1px 1px 3px 0px #222;-o-box-shadow:1px 1px 3px 0px #222;box-shadow:1px 1px 3px 0px #222;filter:progid:DXImageTransform.Microsoft.Shadow(color=#222, Direction=134, Strength=3)}
+.pagination-block .precsuiv {font-weight:bold;}
+.pagination-block span.pagination-disabled {border:1px solid #ccc; border-radius:5px; color:#ccc}
+.pagination-block span.pagination-current {border:1px solid #222;background:#222;border-radius:5px;color:#fff;font-weight:bold}
+#imgLoading {display:none;width:220px;margin:.8em auto}
+#loadMore {display:none;border-radius:5px;border:1px solid #ccc;background:#222;text-align:center;font-weight:bold;-moz-box-shadow:1px 1px 3px 0px #656565;-webkit-box-shadow:1px 1px 3px 0px #656565;-o-box-shadow:1px 1px 3px 0px #656565;box-shadow:1px 1px 3px 0px #656565;filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=3);color:#fff;text-decoration:none;padding:.5em;font-size:.85em;width:40%;margin:1.8em auto 0;cursor:pointer}
+#loadMore:hover{background:#eee;color:#222}
+#loadMoreIS{display:none;width:220px;height:20px;margin:10px auto}

@@ -1,0 +1,26 @@
+.clearBlock{clear:both}
+.WPAdvancedSearch h3{font-size:1.3em}
+.WPBlockSearch{margin:2em 0}
+.WPbeforeResults{padding-bottom:1.6em;border-bottom:1px solid #e0e0e0}
+.searchNbResults {font-style:italic;font-size:.9em;color:#555}
+.WPcorrections {font-size:1.1em;margin:.4em 0}
+.WPcorrections a{text-decoration:none;color:#1a0dab}
+.WPFirstSearch a{font-size:1.2em;color:#1a0dab;text-decoration:none;display:block}
+.WPcorrections a:hover,.WPSecondSearch a:hover,.WPFirstSearch a:hover,.WPcommentSearch a:hover,.WPReadMoreSearch a:hover,.WPtextSearch a:hover{text-decoration:underline}
+.WPSecondSearch{color:#006621;margin-bottom:.1em}
+.WPSecondSearch a{color:#006621;text-decoration:none}
+.WPnumberSearch{float:left;font-size:1.2em;color:#1a0dab;text-decoration:none;display:block}
+.WPnumberSearch:after{content:"\00202F-\00202F"}
+.WPdateSearch,.WPauthorSearch,.WPcategorySearch,.WPtextSearch{}
+.WPauthorSearch a,.WPcategorySearch a{}
+.WPauthorSearch a:hover,.WPcategorySearch a:hover{}
+.WPcommentSearch{clear:both}
+.WPcommentSearch:before{content:"\00202F-\00202F"}
+.WPcommentSearch a{}
+.WPtitleSearch{}
+.WPBlockContent{}
+.WPBlockContent img {float:left;margin:.2em .8em 0 0}
+.WPtextSearch a{text-decoration:none;color:#1a0dab}
+.WPtextSearch strong{}
+.WPReadMoreSearch{clear:both;text-align:right;display:block}
+.WPErrorSearch{}

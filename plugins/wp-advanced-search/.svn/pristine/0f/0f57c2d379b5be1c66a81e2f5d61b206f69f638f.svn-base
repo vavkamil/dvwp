@@ -1,0 +1,11 @@
+.pagination-block {margin:1.5em 0 0 0;line-height:2em;text-align:center}
+.pagination-block a, .pagination-block span {padding:0.2em 0.5em 0.3em}
+.pagination-block a {background:#93a1a4;color:#fff;text-decoration:none}
+.pagination-block a:hover {background:#5299c7;color:#fff}
+.pagination-block .precsuiv {font-weight:bold}
+.pagination-block span.pagination-disabled {background:#ecf0f1;color:#ccc}
+.pagination-block span.pagination-current {background:#34495e;color:#fff;font-weight:bold}
+#imgLoading{display:none;width:220px;margin:.8em auto}
+#loadMore{display:none;border-radius:5px;border:1px solid #eee;background:#5299c7;text-align:center;font-weight:bold;box-shadow:2px 2px 2px rgba(50,50,50,.4);color:#fff;text-decoration:none;padding:.5em;width:60%;margin:1em auto;cursor:pointer}
+#loadMore:hover{background:#ecf0f1;color:#242424}
+#loadMoreIS{display:none;width:220px;height:20px;margin:10px auto}

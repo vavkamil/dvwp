@@ -1,0 +1,1065 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress File Upload\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-22 19:41+0200\n"
+"PO-Revision-Date: 2018-12-22 19:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: Iptanus Team <info@iptanus.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: minified\n"
+"X-Poedit-SearchPathExcluded-2: unminified\n"
+
+#: extensions/wfu_facebook/wfu_facebook_constants.php:25
+msgid ""
+"Insert variable %uploaddetails% inside text. It will be replaced by a link "
+"showing details about the upload when clicked."
+msgstr ""
+
+#: extensions/wfu_facebook/wfu_facebook_constants.php:26
+msgid "You need to login as administrator to see this page!"
+msgstr ""
+
+#: lib/wfu_constants.php:10
+msgid "Upload files"
+msgstr "上传文件"
+
+#: lib/wfu_constants.php:13
+msgid "Select File/Select Files"
+msgstr "选择文件/选择文件"
+
+#: lib/wfu_constants.php:14
+msgid "Upload File/Upload Files"
+msgstr "上传文件/上传文件"
+
+#: lib/wfu_constants.php:18
+msgid "Select File"
+msgstr "选择文件"
+
+#: lib/wfu_constants.php:19
+msgid "Upload File"
+msgstr "上传文件"
+
+#: lib/wfu_constants.php:22
+msgid "File Upload Notification"
+msgstr "文件上传提示"
+
+#: lib/wfu_constants.php:23
+msgid ""
+"Dear Recipient,%n%%n%   This is an automatic delivery message to notify you "
+"that a new file has been uploaded.%n%%n%Best Regards"
+msgstr ""
+"亲爱的收件人，这是一封自动发送的信息，通知您收到一个新的上传文件。请查收，谢"
+"谢！"
+
+#: lib/wfu_constants.php:24
+#, php-format
+msgid "File %filename% uploaded successfully"
+msgstr "文件上传成功"
+
+#: lib/wfu_constants.php:25
+#, php-format
+msgid "File %filename% uploaded successfully but with warnings"
+msgstr "文件上传成功但有警告提示"
+
+#: lib/wfu_constants.php:26
+msgid "File %filename% not uploaded"
+msgstr "文件上传失败。"
+
+#: lib/wfu_constants.php:27
+msgid "File %filename% is being uploaded"
+msgstr "文件正在加载中。"
+
+#: lib/wfu_constants.php:28
+msgid "Your message"
+msgstr "您的信息"
+
+#: lib/wfu_constants.php:29
+msgid "Please fill in the above words: "
+msgstr "请填写上面的字。"
+
+#: lib/wfu_constants.php:30
+msgid "Upload Media"
+msgstr ""
+
+#: lib/wfu_constants.php:31
+msgid "videostream"
+msgstr ""
+
+#: lib/wfu_constants.php:32
+msgid "screenshot"
+msgstr ""
+
+#: lib/wfu_constants.php:33
+msgid ""
+"By activating this option I agree to let the website keep my personal data"
+msgstr ""
+
+#: lib/wfu_constants.php:34
+msgid ""
+"You have denied to let the website keep your personal data. Upload cannot "
+"continue!"
+msgstr ""
+
+#: lib/wfu_constants.php:36
+msgid "File"
+msgstr "文件"
+
+#: lib/wfu_constants.php:37
+msgid "Date"
+msgstr "日期"
+
+#: lib/wfu_constants.php:38
+msgid "Size"
+msgstr "大小"
+
+#: lib/wfu_constants.php:39
+msgid "User"
+msgstr "用户"
+
+#: lib/wfu_constants.php:40 lib/wfu_constants.php:205
+msgid "Page"
+msgstr "页面"
+
+#: lib/wfu_constants.php:41
+msgid "User Fields"
+msgstr "用户区域"
+
+#: lib/wfu_constants.php:42
+msgid "Download"
+msgstr "下载"
+
+#: lib/wfu_constants.php:43
+msgid "Download this file"
+msgstr "下载这个文件"
+
+#: lib/wfu_constants.php:44
+msgid "Delete"
+msgstr "删除"
+
+#: lib/wfu_constants.php:45
+msgid "Delete this file"
+msgstr "删除这个文件"
+
+#: lib/wfu_constants.php:46
+msgid "Sort list based on this column"
+msgstr "根据该列分类"
+
+#: lib/wfu_constants.php:47
+msgid "guest"
+msgstr "客人"
+
+#: lib/wfu_constants.php:48
+msgid "unknown"
+msgstr "未知"
+
+#: lib/wfu_constants.php:50
+msgid ""
+"Error. Could not resolve ftp target filedir. Check the domain in 'ftpinfo' "
+"attribute."
+msgstr "错误：不能解决 ftp 目标文件目录。请检查 'ftpinfo'属性中的domain"
+
+#: lib/wfu_constants.php:51
+msgid "Error. Invalid ftp information. Check 'ftpinfo' attribute."
+msgstr "错误：无效 ftp 信息。请检查 'ftpinfo' 属性"
+
+#: lib/wfu_constants.php:52
+msgid ""
+"Error. Could not extract ftp information from 'ftpinfo' attribute. Check its "
+"syntax."
+msgstr "错误：不能从 'ftpinfo' 属性中提取 ftp 信息。请检查它的句法"
+
+#: lib/wfu_constants.php:53
+msgid ""
+"Error. Could not resolve ftp target filename. Check the domain in 'ftpinfo' "
+"attribute."
+msgstr "错误：不能解决 ftp 目标文件名。请检查 'ftpinfo'属性中的 domain"
+
+#: lib/wfu_constants.php:54
+msgid ""
+"Error. Could not open source file for ftp upload. Check if file is "
+"accessible."
+msgstr ""
+
+#: lib/wfu_constants.php:55
+msgid "Error. Could not send data to ftp target file."
+msgstr ""
+
+#: lib/wfu_constants.php:56
+msgid ""
+"Error. Could not connect to ftp host. Check the domain in 'ftpinfo' "
+"attribute."
+msgstr ""
+
+#: lib/wfu_constants.php:57
+msgid ""
+"Error. Could not authenticate to ftp host. Check username and password in "
+"'ftpinfo' attribute."
+msgstr ""
+
+#: lib/wfu_constants.php:58
+msgid ""
+"Error. Could not initialize sftp subsystem. Please check if the server "
+"supports sftp."
+msgstr ""
+
+#: lib/wfu_constants.php:59
+msgid "Error. The web server does not support sftp."
+msgstr ""
+
+#: lib/wfu_constants.php:60
+msgid ""
+"Error. The upload size limit of PHP directive upload_max_filesize is "
+"preventing the upload of big files.\n"
+"PHP directive upload_max_filesize limit is: "
+msgstr ""
+"错误：上传文件PHP directive upload_max_filesize 的限制正在避免加载大文件。"
+"PHP directive upload_max_filesize 的限制是："
+
+#: lib/wfu_constants.php:61
+msgid ""
+"The upload time limit of PHP directive max_input_time is preventing the "
+"upload of big files.\n"
+"PHP directive max_input_time limit is: "
+msgstr ""
+"错误：上传文件 PHP directive max_input_time 的时间限制正在避免加载大文件。"
+"PHP directive upload_max_filesize 的时间限制是："
+
+#: lib/wfu_constants.php:62
+msgid ""
+"Error. Permission denied to write to target folder.\n"
+"Check and correct read/write permissions of target folder."
+msgstr "错误：拒绝写到目标文件夹。请检查和校对目标文件夹的读/写允许。"
+
+#: lib/wfu_constants.php:63
+msgid ""
+"Error. This file was rejected because its extension is not correct. Its "
+"proper filename is: "
+msgstr "错误：因为扩展名不对，该文件被拒绝。正确的文件名是："
+
+#: lib/wfu_constants.php:64
+msgid ""
+"Too many files are uploaded in a short period of time. This may be a Denial-"
+"Of-Service attack, so file was rejected. Please check the upload log for "
+"suspicious behaviour."
+msgstr ""
+
+#: lib/wfu_constants.php:65
+msgid ""
+"File not uploaded in order to prevent overflow of the website. Please "
+"contact administrator."
+msgstr ""
+
+#: lib/wfu_constants.php:66
+msgid "Target folder doesn't exist."
+msgstr ""
+
+#: lib/wfu_constants.php:67
+msgid "Upload failed! Missing a temporary folder."
+msgstr "加载失败！丢失一个临时文件夹。"
+
+#: lib/wfu_constants.php:68
+msgid "Upload failed! Permission denied to write to target folder."
+msgstr "加载失败！写入目标文件夹被拒绝。"
+
+#: lib/wfu_constants.php:69
+msgid "File not allowed."
+msgstr "文件不被允许。"
+
+#: lib/wfu_constants.php:70
+msgid "File is suspicious and was rejected."
+msgstr "可疑文件，被拒绝。"
+
+#: lib/wfu_constants.php:71
+msgid "The uploaded file exceeds the file size limit."
+msgstr "加载的文件超出文件尺寸限制。"
+
+#: lib/wfu_constants.php:72
+msgid "The uploaded file exceeds 2GB and is not supported by this server."
+msgstr "上传文件超出2GB，服务器不支持。"
+
+#: lib/wfu_constants.php:73
+msgid ""
+"Upload failed! The uploaded file exceeds the file size limit of the server. "
+"Please contact the administrator."
+msgstr "上传失败！上传文件超出服务器的文件大小限制。请联系管理员。"
+
+#: lib/wfu_constants.php:74
+msgid ""
+"Upload failed! The duration of the upload exceeded the time limit of the "
+"server. Please contact the administrator."
+msgstr "上传失败！上传时间超出服务器的时间限制。请联系管理员。"
+
+#: lib/wfu_constants.php:75
+msgid ""
+"Upload failed! The uploaded file exceeds the MAX_FILE_SIZE directive that "
+"was specified in the HTML form."
+msgstr "上传失败！上传文件超出HTML格式中规定的最大文件大小限制。"
+
+#: lib/wfu_constants.php:76
+msgid "Upload failed! The uploaded file was only partially uploaded."
+msgstr "上传失败！只生产了部分加载文件。"
+
+#: lib/wfu_constants.php:77
+msgid "Upload failed! No file was uploaded."
+msgstr "上传失败！文件没有载入。"
+
+#: lib/wfu_constants.php:78
+msgid "Upload failed! Failed to write file to disk."
+msgstr "上传失败！写文件到磁盘失败。"
+
+#: lib/wfu_constants.php:79
+msgid ""
+"Upload failed! Error occured while moving temporary file. Please contact "
+"administrator."
+msgstr "上传失败！移动临时文件时出现故障。请联系管理员。"
+
+#: lib/wfu_constants.php:80 lib/wfu_constants.php:228
+msgid "Upload cancelled!"
+msgstr ""
+
+#: lib/wfu_constants.php:81
+msgid ""
+"Upload failed! A PHP extension stopped the file upload. PHP does not provide "
+"a way to ascertain which extension caused the file upload to stop; examining "
+"the list of loaded extensions with phpinfo() may help."
+msgstr ""
+"上传失败！PHP扩展名终止文件加载。PHP 不明确提供那个扩展名造成文件加载终止；检"
+"查带 phpinfo() 的加载扩展名列表可能会有帮助。"
+
+#: lib/wfu_constants.php:82
+msgid "Upload failed! Error occured while attemting to upload the file."
+msgstr "上传失败！试图加载文件时出现错误。"
+
+#: lib/wfu_constants.php:83 lib/wfu_constants.php:223
+msgid "Upload failed!"
+msgstr "上传失败！"
+
+#: lib/wfu_constants.php:84
+msgid "No file!"
+msgstr "没有忘记！"
+
+#: lib/wfu_constants.php:85
+msgid ""
+"Upload failed! The upload has been canceled by the user or the browser "
+"dropped the connection."
+msgstr "上传失败！该上传被用户取消，或者浏览器失去连接。"
+
+#: lib/wfu_constants.php:86
+msgid "Upload failed! Unknown error."
+msgstr "上传失败！未知故障。"
+
+#: lib/wfu_constants.php:87
+msgid "Please contact the administrator."
+msgstr "请联系管理员。"
+
+#: lib/wfu_constants.php:88
+msgid "No result from remote server!"
+msgstr "没有来自远程服务器的结果！"
+
+#: lib/wfu_constants.php:89
+msgid " but with warnings"
+msgstr "但是带警告提示"
+
+#: lib/wfu_constants.php:90 lib/wfu_constants.php:92
+msgid "Warning: JSON parse error."
+msgstr "警告：JSON 语法分析错误。"
+
+#: lib/wfu_constants.php:91
+msgid ""
+"Upload parameters of this file, passed as JSON string to the handler, could "
+"not be parsed."
+msgstr "加载该文件参数，作为JSON 字符串传到handler，不能进行语法分析。"
+
+#: lib/wfu_constants.php:93
+msgid ""
+"UploadStates, passed as JSON string to the handler, could not be parsed."
+msgstr "加载状态，作为为JSON 字符串传到handler，不能进行语法分析。"
+
+#: lib/wfu_constants.php:94
+msgid ""
+"Redirection to classic form functionality occurred due to unknown error."
+msgstr "由于未知故障，出现重新指向到classic form functionality"
+
+#: lib/wfu_constants.php:95
+msgid ""
+"Redirection to classic form functionality occurred because AJAX is not "
+"supported."
+msgstr "因为不支持 AJAX，出现重新指向到classic form functionality"
+
+#: lib/wfu_constants.php:96
+msgid ""
+"Redirection to classic form functionality occurred because HTML5 is not "
+"supported."
+msgstr "因为不支持 HTML5，出现重新指向到classic form functionality"
+
+#: lib/wfu_constants.php:97
+msgid ""
+"Redirection to classic form functionality occurred due to JSON parse error."
+msgstr "由于JSON语法分析错误，出现重新指向到classic form functionality"
+
+#: lib/wfu_constants.php:98
+msgid "Please enable popup windows from the browser's settings!"
+msgstr "请在浏览器设置中启动 popup 打开窗口！"
+
+#: lib/wfu_constants.php:99
+msgid "cannot be empty!"
+msgstr "不能为空白！"
+
+#: lib/wfu_constants.php:100
+msgid "number not valid!"
+msgstr "无效数字！"
+
+#: lib/wfu_constants.php:101
+msgid "email not valid!"
+msgstr "无效邮件！"
+
+#: lib/wfu_constants.php:102
+msgid "emails do not match!"
+msgstr "邮箱不符！"
+
+#: lib/wfu_constants.php:103
+msgid "no base email field in group!"
+msgstr "在组中没有基本邮件区域！"
+
+#: lib/wfu_constants.php:104
+msgid "passwords do not match!"
+msgstr "口令不符！"
+
+#: lib/wfu_constants.php:105
+msgid "no base password field in group!"
+msgstr "在组中没有基本口令区域！"
+
+#: lib/wfu_constants.php:106
+msgid "checkbox unchecked!"
+msgstr "检查框没打记号！"
+
+#: lib/wfu_constants.php:107
+msgid "no option selected!"
+msgstr "没选择选项！"
+
+#: lib/wfu_constants.php:108
+msgid "no item selected!"
+msgstr "没选择任何物件！"
+
+#: lib/wfu_constants.php:109
+msgid ""
+"There are more than one instances of the plugin in this page with the same "
+"id. Please change it."
+msgstr "在这个页面中有多个带相同 ID 的插件实例， 请更改。"
+
+#: lib/wfu_constants.php:110
+msgid ""
+"Cannot edit the shortcode because the page has been modified. Please reload "
+"the page."
+msgstr "因为页面被修改，不能编辑短码。请重新加载页面。"
+
+#: lib/wfu_constants.php:111
+msgid "Your browser does not support webcam capture!"
+msgstr ""
+
+#: lib/wfu_constants.php:112
+msgid "Your browser does not support video recording from the webcam!"
+msgstr ""
+
+#: lib/wfu_constants.php:113
+msgid "No video was recorded!"
+msgstr ""
+
+#: lib/wfu_constants.php:114
+msgid ""
+"ERROR: Captcha not supported! You have an old PHP version. Upgrade your PHP "
+"or use RecaptchaV2 (no account)."
+msgstr ""
+"错误： Captcha 不支持！你有一个旧 PHP 版本。升级你的 PHP 或使用 "
+"RecaptchaV2 。"
+
+#: lib/wfu_constants.php:115
+msgid ""
+"ERROR: Only one instance of RecaptchaV1 can exist on the same page. Please "
+"notify administrator."
+msgstr "错误：相同页面中只能有一个 RecaptchaV1 实例 存在。请通知管理员。"
+
+#: lib/wfu_constants.php:116
+msgid ""
+"ERROR: Only one instance of RecaptchaV1 can exist on the same page. Please "
+"use RecaptchaV1 (no account)."
+msgstr "错误：相同页面中只能有一个 RecaptchaV1 实例 存在。请使用 RecaptchaV1 "
+
+#: lib/wfu_constants.php:117
+msgid "ERROR: No site key. Please contact administrator!"
+msgstr "错误：没有site key. 请联系管理员！"
+
+#: lib/wfu_constants.php:118
+msgid ""
+"ERROR: No site key defined! Please go to the plugin settings in Dashboard to "
+"define Google Recaptcha keys."
+msgstr ""
+"错误：没有已定义的 site key! 请在 Dashboard 的插件设置中定义 谷歌 Recaptcha "
+"keys。"
+
+#: lib/wfu_constants.php:119
+msgid "Bad captcha image!"
+msgstr "损坏的 captcha 图像！"
+
+#: lib/wfu_constants.php:120
+msgid "No input!"
+msgstr "没有输入！"
+
+#: lib/wfu_constants.php:121
+msgid "Captcha not completed!"
+msgstr "captcha 不完整！"
+
+#: lib/wfu_constants.php:122
+msgid "Wrong captcha!"
+msgstr "错误的 captcha！"
+
+#: lib/wfu_constants.php:123
+msgid "Error refreshing captcha!"
+msgstr "更新 captcha 故障！"
+
+#: lib/wfu_constants.php:124
+msgid "Unknown captcha error!"
+msgstr "未知 captcha 错误！"
+
+#: lib/wfu_constants.php:125
+msgid "Captcha not supported by your browser!"
+msgstr "你的浏览器不支持 captcha！"
+
+#: lib/wfu_constants.php:126
+msgid "the secret parameter is missing"
+msgstr "秘密参数丢失"
+
+#: lib/wfu_constants.php:127
+msgid "the secret parameter is invalid or malformed"
+msgstr "秘密参数无效或出错"
+
+#: lib/wfu_constants.php:128
+msgid "the response parameter is missing"
+msgstr "相应参数丢失"
+
+#: lib/wfu_constants.php:129
+msgid "the response parameter is invalid or malformed"
+msgstr "相应参数无效或出错"
+
+#: lib/wfu_constants.php:130
+msgid "Please do not use drag drop due to an internal problem."
+msgstr "由于内部问题，请不要使用托拽功能。"
+
+#: lib/wfu_constants.php:131
+#, php-format
+msgid "Error during chunked upload. Unique ID empty in chunk %d"
+msgstr "分片加载时出错。分片 %d 中唯一的ID 空白"
+
+#: lib/wfu_constants.php:132
+msgid "Chunked upload is not allowed!"
+msgstr "不允许分片加载！"
+
+#: lib/wfu_constants.php:133
+msgid "Chunked upload aborted due to error in previous chunk!"
+msgstr "由于前一分片出错，分片加载终止！"
+
+#: lib/wfu_constants.php:134
+msgid "Chunked upload failed, final file could not be created!"
+msgstr "分片加载失败，不能生成最终文件！"
+
+#: lib/wfu_constants.php:135
+#, php-format
+msgid "Could not write file chuck to destination on chunk %d"
+msgstr "不能将文件分片写到分片 %d 中"
+
+#: lib/wfu_constants.php:136
+#, php-format
+msgid "Could not enlarge destination file on chunk %d"
+msgstr "不能加大分片 %d 上的目标文件"
+
+#: lib/wfu_constants.php:137
+#, php-format
+msgid "Could not open file handles on chunk %d"
+msgstr "不能打开分片 %d 上的文件 handles"
+
+#: lib/wfu_constants.php:138
+msgid "You are not allowed to download this file!"
+msgstr ""
+
+#: lib/wfu_constants.php:139
+msgid "File does not exist!"
+msgstr ""
+
+#: lib/wfu_constants.php:140
+msgid "Could not download file!"
+msgstr ""
+
+#: lib/wfu_constants.php:141
+msgid "You are not allowed to delete this file!"
+msgstr "不允许删除该文件！"
+
+#: lib/wfu_constants.php:142
+msgid "File was not deleted!"
+msgstr ""
+
+#: lib/wfu_constants.php:143
+msgid "No file was deleted!"
+msgstr ""
+
+#: lib/wfu_constants.php:144
+msgid "Some files were not deleted!"
+msgstr ""
+
+#: lib/wfu_constants.php:146
+msgid "Upload skipped! File already exists."
+msgstr "跳过加载！文件已经存在。"
+
+#: lib/wfu_constants.php:147
+msgid "The extension of the file does not match its contents."
+msgstr "该文件的扩展名与其内容不符。"
+
+#: lib/wfu_constants.php:148
+msgid ""
+"Upload succeeded but the file is suspicious because its contents do not "
+"match its extension. Its proper filename is: "
+msgstr "上传成功，但因为他的内容与其扩展名不符，文件可疑。正确的文件名是："
+
+#: lib/wfu_constants.php:149
+msgid "No files have been selected!"
+msgstr "没有选择文件！"
+
+#: lib/wfu_constants.php:150
+msgid "Please complete the consent question before continuing the upload!"
+msgstr ""
+
+#: lib/wfu_constants.php:151
+msgid "WPFilebase Plugin not updated because there were no files uploaded."
+msgstr "因为没有加载的文件，WPFilebase 插件没更新"
+
+#: lib/wfu_constants.php:152
+msgid "Notification email was not sent because there were no files uploaded."
+msgstr "因为没有加载文件，通知邮件没发出。"
+
+#: lib/wfu_constants.php:153
+msgid ""
+"Notification email was not sent because no recipients were defined. Please "
+"check notifyrecipients attribute in the shortcode."
+msgstr ""
+"因为没有定义收件人，通知邮件没发出。请检查 短码中的 notifyrecipients 属性"
+
+#: lib/wfu_constants.php:154
+msgid ""
+"Notification email was not sent due to an error. Please check "
+"notifyrecipients, notifysubject and notifymessage attributes for errors."
+msgstr ""
+"由于出错，通知邮件没发出。请检查 notifyrecipients, notifysubject 和 "
+"notifymessage 属性"
+
+#: lib/wfu_constants.php:155
+msgid ""
+"Redirection not executed because redirection link is empty. Please check "
+"redirectlink attribute."
+msgstr "因为重新定位链接空白，重新定位不执行。请检查 redirectlink 属性。"
+
+#: lib/wfu_constants.php:156
+msgid ""
+"Redirection not executed because not all files were successfully uploaded."
+msgstr "因为不是所有的文件都成功加载，重新定位不执行。"
+
+#: lib/wfu_constants.php:157
+msgid "Potential Denial-Of-Service Attack on {SITE}"
+msgstr ""
+
+#: lib/wfu_constants.php:158
+msgid ""
+"Hello admin\n"
+"\n"
+"This is a message from Wordpress File Upload Plugin to notify you that a "
+"potential Denial-Of-Service attack has been detected on {SITE}.\n"
+"\n"
+"The plugin detected more than {FILENUM} uploads within {INTERVAL} seconds.\n"
+"\n"
+"All file uploads that exceed this limit are rejected to protect the website "
+"from overflowing.\n"
+"\n"
+"Please check the upload history log in the plugin's area in Dashboard for "
+"any suspicious behaviour.\n"
+"\n"
+"A new message will follow if the situation remains.\n"
+"\n"
+"Thanks"
+msgstr ""
+
+#: lib/wfu_constants.php:159
+msgid ""
+"You have activated an alternative insecure Iptanus Services Server. For "
+"details please contact info@iptanus.com."
+msgstr ""
+
+#: lib/wfu_constants.php:160
+msgid ""
+"Iptanus Services Server is unreachable. This may cause problems on some "
+"plugin functions. Please read this :article: for resolution."
+msgstr ""
+
+#: lib/wfu_constants.php:162
+msgid ""
+"Failed to add the shortcode to the page/post. Please try again. If the "
+"message persists, contact administrator."
+msgstr "添加短码到 page/post 失败。请重新试一下。 如果仍有错误， 联系管理员。"
+
+#: lib/wfu_constants.php:163
+msgid ""
+"Failed to edit the shortcode because the contents of the page changed. Try "
+"again to edit the shortcode."
+msgstr "因为页面内容改变，编辑短码失败。再重新编辑该短码。"
+
+#: lib/wfu_constants.php:164
+msgid ""
+"Failed to delete the shortcode because the contents of the page changed. Try "
+"again to delete it."
+msgstr "因为页面内容改变，删除短码失败。再重新删除。"
+
+#: lib/wfu_constants.php:165
+msgid ""
+"The page containing the shortcode has been modified and it is no longer "
+"valid. Please go back to reload the shortcode."
+msgstr "含有短码的页面已经被修改，它不再有效。请回到重新加载该短码。"
+
+#: lib/wfu_constants.php:166
+msgid ""
+"Failed to update the shortcode because the contents of the page changed. Go "
+"back to reload the shortcode."
+msgstr "因为页面内容被修改，更新短码失败。回到重新加载该短码。"
+
+#: lib/wfu_constants.php:167
+msgid ""
+"Failed to update the shortcode. Please try again. If the problem persists, "
+"go back and reload the shortcode."
+msgstr "更新短码失败。请重新再试。如果问题仍存在，返回查询加载该短码。"
+
+#: lib/wfu_constants.php:169
+msgid "This is a test message"
+msgstr "这是一个测试信息"
+
+#: lib/wfu_constants.php:170
+msgid "This is a test administrator message"
+msgstr "这是一个测试管理员信息"
+
+#: lib/wfu_constants.php:171
+msgid "File testfile 1 under test"
+msgstr "测试中的文件  testfile 1"
+
+#: lib/wfu_constants.php:172
+msgid "File testfile 1 message"
+msgstr "文件  testfile 1 信息"
+
+#: lib/wfu_constants.php:173
+msgid "File testfile 1 administrator message"
+msgstr "文件  testfile 1 管理员信息"
+
+#: lib/wfu_constants.php:174
+msgid "File testfile 2 under test"
+msgstr "测试中的文件  testfile 2"
+
+#: lib/wfu_constants.php:175
+msgid "File testfile 2 message"
+msgstr "文件  testfile 2 信息"
+
+#: lib/wfu_constants.php:176
+msgid "File testfile 2 administrator message"
+msgstr "文件  testfile 2 管理员信息"
+
+#: lib/wfu_constants.php:178
+msgid ""
+"Insert variable %userid% inside text. It will be replaced by the id of the "
+"current user."
+msgstr "在文本中插入变量 %userid%。 它将被当前用户的 ID 替换。"
+
+#: lib/wfu_constants.php:179
+msgid ""
+"Insert variable %username% inside text. It will be replaced by the username "
+"of the current user."
+msgstr "在文本中插入变量 %username%。 它将被当前用户的用户名替换。"
+
+#: lib/wfu_constants.php:180
+msgid ""
+"Insert variable %useremail% inside text. It will be replaced by the email of "
+"the current user."
+msgstr "在文本中插入变量 %useremail%。 它将被当前用户的邮替换。"
+
+#: lib/wfu_constants.php:181
+msgid ""
+"Insert variable %filename% inside text. It will be replaced by the filename "
+"of the uploaded file."
+msgstr "在文本中插入变量 %filename%。 它将被上传文件的文件名替换。"
+
+#: lib/wfu_constants.php:182
+msgid ""
+"Insert variable %filepath% inside text. It will be replaced by the full "
+"filepath of the uploaded file."
+msgstr "在文本中插入变量 %filepath%。 它将被上传文件的文件路径替换。"
+
+#: lib/wfu_constants.php:183
+msgid ""
+"Insert variable %blogid% inside text. It will be replaced by the blog id of "
+"the website."
+msgstr "在文本中插入变量 %blogid%。 它将被该网站的blog ID替换。"
+
+#: lib/wfu_constants.php:184
+msgid ""
+"Insert variable %pageid% inside text. It will be replaced by the id of the "
+"current page."
+msgstr "在文本中插入变量 %pageid%。 它将被当前页面的 ID 替换。"
+
+#: lib/wfu_constants.php:185
+msgid ""
+"Insert variable %pagetitle% inside text. It will be replaced by the title of "
+"the current page."
+msgstr "在文本中插入变量 %pagetitle%。 它将被上传文件的名称替换。"
+
+#: lib/wfu_constants.php:186
+msgid ""
+"Insert variable %userdataXXX% inside text. Select the user field from the "
+"drop-down list. It will be replaced by the value that the user entered in "
+"this field."
+msgstr ""
+"在文本中插入变量 %userdataXXX%。从下拉表中选择该用户区域。它将被用户在此区域"
+"输入的值替换。"
+
+#: lib/wfu_constants.php:187
+msgid "Insert variable %n% inside text to denote a line change."
+msgstr "在文本中插入变量 %n%。表明一行变化。"
+
+#: lib/wfu_constants.php:189
+#, php-format
+msgid "File %filename% uploaded successfully but not saved"
+msgstr ""
+
+#: lib/wfu_constants.php:190
+msgid "Test Mode"
+msgstr "测试模式"
+
+#: lib/wfu_constants.php:191
+msgid "select dir..."
+msgstr "选择 dir ..."
+
+#: lib/wfu_constants.php:192
+msgid "type dir"
+msgstr "键入 dir"
+
+#: lib/wfu_constants.php:193
+msgid "Upload path: %filepath%"
+msgstr "加载路径：%filepath%"
+
+#: lib/wfu_constants.php:194
+msgid "Failed upload path: %filepath%"
+msgstr "加载路径失败： %filepath%"
+
+#: lib/wfu_constants.php:195
+msgid " (required)"
+msgstr "（必需）"
+
+#: lib/wfu_constants.php:196
+msgid "Files are being uploaded. Are you sure you want to exit the page?"
+msgstr "文件正在加载中，你确定要退出这个页面吗？"
+
+#: lib/wfu_constants.php:197
+msgid "checking captcha..."
+msgstr "正在检查 captcha ..."
+
+#: lib/wfu_constants.php:198
+msgid "refreshing..."
+msgstr "正在更新 ..."
+
+#: lib/wfu_constants.php:199
+msgid "correct captcha"
+msgstr "正确的 captcha"
+
+#: lib/wfu_constants.php:200
+msgid "click to continue the upload"
+msgstr "点击继续上传"
+
+#: lib/wfu_constants.php:201
+msgid "Are you sure you want to delete this file?"
+msgstr "确定要删除这个文件吗？"
+
+#: lib/wfu_constants.php:202
+msgid "Are you sure you want to delete these files?"
+msgstr ""
+
+#: lib/wfu_constants.php:203
+msgid "Bulk Actions"
+msgstr ""
+
+#: lib/wfu_constants.php:204
+msgid "Apply"
+msgstr ""
+
+#: lib/wfu_constants.php:206
+msgid "of "
+msgstr ""
+
+#: lib/wfu_constants.php:207
+msgid "Are you sure that you want to cancel the upload?"
+msgstr ""
+
+#: lib/wfu_constants.php:208
+msgid "cancel upload of this file"
+msgstr ""
+
+#: lib/wfu_constants.php:209
+msgid "Upload in progress"
+msgstr "上传正在进行中"
+
+#: lib/wfu_constants.php:210
+msgid "Upload in progress with warnings!"
+msgstr "上传正在进行中，有警告提示！"
+
+#: lib/wfu_constants.php:211
+msgid "Upload in progress but some files already failed!"
+msgstr "上传正在进行中，有些文件已经加载失败！"
+
+#: lib/wfu_constants.php:212
+msgid "Upload in progress but no files uploaded so far!"
+msgstr "上传正在进行中，还没有文件载入！"
+
+#: lib/wfu_constants.php:213
+msgid "All files uploaded successfully"
+msgstr "所有危机上传成功"
+
+#: lib/wfu_constants.php:214
+msgid "All files uploaded successfully but there are warnings!"
+msgstr "所有文件上传成功，但有警告提示！"
+
+#: lib/wfu_constants.php:215
+msgid "File uploaded successfully but there are warnings!"
+msgstr "文件上传成功，但有警告提示！"
+
+#: lib/wfu_constants.php:216
+msgid "Some files failed to upload!"
+msgstr "部分文件上传失败！"
+
+#: lib/wfu_constants.php:217
+msgid "All files failed to upload"
+msgstr "所以我就上传失败"
+
+#: lib/wfu_constants.php:218
+msgid "File failed to upload"
+msgstr "文件上传失败"
+
+#: lib/wfu_constants.php:219
+msgid "There are no files to upload!"
+msgstr "没有要上传的文件！"
+
+#: lib/wfu_constants.php:220
+msgid "Test upload message"
+msgstr "测试上传信息"
+
+#: lib/wfu_constants.php:221
+msgid "JSON parse warning!"
+msgstr "JSON语法分析警告！"
+
+#: lib/wfu_constants.php:222
+msgid "please wait while redirecting..."
+msgstr "请等候，正在重新定位 ..."
+
+#: lib/wfu_constants.php:224
+msgid "Submitting data"
+msgstr ""
+
+#: lib/wfu_constants.php:225
+msgid "Data submitted successfully!"
+msgstr ""
+
+#: lib/wfu_constants.php:226
+msgid "Data were not submitted!"
+msgstr ""
+
+#: lib/wfu_constants.php:227
+msgid "Cancelling upload"
+msgstr ""
+
+#: lib/wfu_constants.php:229
+msgid "Upload succeeded!"
+msgstr ""
+
+#: lib/wfu_constants.php:230
+msgid "Upload completed but no files were saved!"
+msgstr ""
+
+#: lib/wfu_constants.php:231
+msgid "File was not saved due to personal data policy!"
+msgstr ""
+
+#: lib/wfu_constants.php:232
+msgid "Open visual shortcode editor in new window"
+msgstr "在新窗口打开视频 shortcode 编辑器"
+
+#: lib/wfu_constants.php:233
+msgid "loading visual editor"
+msgstr "加载视频编辑器"
+
+#: lib/wfu_constants.php:234
+msgid "Clear file list?"
+msgstr "清除文件列表？"
+
+#: lib/wfu_constants.php:235
+msgid "DROP HERE"
+msgstr "放在这里"
+
+#: lib/wfu_constants.php:237
+msgid "record video"
+msgstr ""
+
+#: lib/wfu_constants.php:238
+msgid "take a picture"
+msgstr ""
+
+#: lib/wfu_constants.php:239
+msgid "turn webcam on/off"
+msgstr ""
+
+#: lib/wfu_constants.php:240
+msgid "go live again"
+msgstr ""
+
+#: lib/wfu_constants.php:241
+msgid "end recording"
+msgstr ""
+
+#: lib/wfu_constants.php:242
+msgid "play"
+msgstr ""
+
+#: lib/wfu_constants.php:243
+msgid "pause"
+msgstr ""
+
+#: lib/wfu_constants.php:244
+msgid "go to the beginning"
+msgstr ""
+
+#: lib/wfu_constants.php:245
+msgid "go to the end"
+msgstr ""
+
+#: lib/wfu_constants.php:247
+msgid "Wordpress File Upload Form"
+msgstr "Wordpress 文件上传格式"
+
+#: lib/wfu_constants.php:248
+msgid "Wordpress File Upload plugin uploader for sidebars"
+msgstr "针对sidebars 的 Wordpress 文件上传插件工具"
+
+#: lib/wfu_constants.php:249
+msgid "Upload Files"
+msgstr "上传文件"
+
+#~ msgid "Targer folder doesn't exist."
+#~ msgstr "目标文件夹不存在。"

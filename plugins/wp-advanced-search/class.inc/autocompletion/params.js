@@ -1,0 +1,1 @@
+!function(a){var t=ac_param.selector,r=ac_param.urlDestination,e=ac_param.autoFocus,l=ac_param.limitDisplay,i=ac_param.multiple;a(t).autocomplete(r,{selectFirst:e,max:l,multiple:i,multipleSeparator:" ",delay:50,noRecord:""});var m=a(t).parents("form:first");a(m).on("submit",function(){a(t).val(a.trim(a(t).val()))})}(jQuery);

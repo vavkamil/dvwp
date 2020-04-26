@@ -1,0 +1,8 @@
+.ac_results {border:1px solid #ddd; background:#fff; overflow:hidden; z-index:99999;}
+.ac_results ul {list-style:none; padding:0; margin:0;}
+.ac_results li {padding:.1em .4em; display:block; font-size:.9em; line-height:1.3em; overflow:hidden; border-top:1px solid #f1f1f1; color:#222;}
+.ac_results li:first-child {border-top:0;}
+.ac_loading {background:#FFF url('indicator.gif') right center no-repeat;}
+.ac_over {background-color:#eee;}
+.ac_odd, .ac_even {}
+.ac_input {}

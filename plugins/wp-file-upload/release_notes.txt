@@ -1,0 +1,3 @@
+<!--  --><span><strong>Version 4.12.2</strong> is a minor update to fix some bugs of file <strong>download</strong> operation of the <strong>File Browser</strong> which occur when <strong>User State Handler</strong> is set to <strong>DBOption</strong>.<br /><br />
+For more details about this version's changes please visit the Release Notes of the plugin's </span><a href="http://www.iptanus.com/wordpress-plugins/wordpress-file-upload/">support page</a><span>.</span><!--  -->
+<!--  -->

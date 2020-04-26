@@ -1,0 +1,1165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress File Upload\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-22 19:37+0200\n"
+"PO-Revision-Date: 2018-12-22 19:37+0200\n"
+"Last-Translator: nickboss <info@iptanus.com>\n"
+"Language-Team: Iptanus Team <info@iptanus.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: minified\n"
+"X-Poedit-SearchPathExcluded-2: unminified\n"
+
+#: extensions/wfu_facebook/wfu_facebook_constants.php:25
+msgid ""
+"Insert variable %uploaddetails% inside text. It will be replaced by a link "
+"showing details about the upload when clicked."
+msgstr ""
+
+#: extensions/wfu_facebook/wfu_facebook_constants.php:26
+msgid "You need to login as administrator to see this page!"
+msgstr ""
+
+#: lib/wfu_constants.php:10
+msgid "Upload files"
+msgstr "Dateien hochladen"
+
+#: lib/wfu_constants.php:13
+msgid "Select File/Select Files"
+msgstr "Wählen Sie Datei/Dateien Auswählen"
+
+#: lib/wfu_constants.php:14
+msgid "Upload File/Upload Files"
+msgstr "Datei Hochladen/Dateien Hochladen"
+
+#: lib/wfu_constants.php:18
+msgid "Select File"
+msgstr "Datei auswählen"
+
+#: lib/wfu_constants.php:19
+msgid "Upload File"
+msgstr "Datei hochladen"
+
+#: lib/wfu_constants.php:22
+msgid "File Upload Notification"
+msgstr "Datei-Upload-Benachrichtigung"
+
+#: lib/wfu_constants.php:23
+msgid ""
+"Dear Recipient,%n%%n%   This is an automatic delivery message to notify you "
+"that a new file has been uploaded.%n%%n%Best Regards"
+msgstr ""
+"Sehr geehrter Empfänger,%n%%n%Dies ist eine automatische Nachricht, die Sie "
+"benachrichtigt, dass eine neue Datei hochgeladen wurde.%n%%n%Beste Grüße"
+
+#: lib/wfu_constants.php:24
+#, php-format
+msgid "File %filename% uploaded successfully"
+msgstr "Datei %filename% erfolgreich hochgeladen"
+
+#: lib/wfu_constants.php:25
+#, php-format
+msgid "File %filename% uploaded successfully but with warnings"
+msgstr "Datei %filename% erfolgreich hochgeladen, aber es gibt Warnhinweise"
+
+#: lib/wfu_constants.php:26
+msgid "File %filename% not uploaded"
+msgstr "Datei% filename% nicht hochgeladen"
+
+#: lib/wfu_constants.php:27
+msgid "File %filename% is being uploaded"
+msgstr "Datei %filename% wird hochgeladen"
+
+#: lib/wfu_constants.php:28
+msgid "Your message"
+msgstr "Ihre Nachricht"
+
+#: lib/wfu_constants.php:29
+msgid "Please fill in the above words: "
+msgstr "Bitte füllen Sie die Worte oben: "
+
+#: lib/wfu_constants.php:30
+msgid "Upload Media"
+msgstr "Medien hochladen"
+
+#: lib/wfu_constants.php:31
+msgid "videostream"
+msgstr "videostream"
+
+#: lib/wfu_constants.php:32
+msgid "screenshot"
+msgstr "screenshot"
+
+#: lib/wfu_constants.php:33
+msgid ""
+"By activating this option I agree to let the website keep my personal data"
+msgstr ""
+
+#: lib/wfu_constants.php:34
+msgid ""
+"You have denied to let the website keep your personal data. Upload cannot "
+"continue!"
+msgstr ""
+
+#: lib/wfu_constants.php:36
+msgid "File"
+msgstr "Datei"
+
+#: lib/wfu_constants.php:37
+msgid "Date"
+msgstr "Datum"
+
+#: lib/wfu_constants.php:38
+msgid "Size"
+msgstr "Grösse"
+
+#: lib/wfu_constants.php:39
+msgid "User"
+msgstr "Benutzer"
+
+#: lib/wfu_constants.php:40 lib/wfu_constants.php:205
+msgid "Page"
+msgstr "Seite"
+
+#: lib/wfu_constants.php:41
+msgid "User Fields"
+msgstr "Benutzerfelder:"
+
+#: lib/wfu_constants.php:42
+msgid "Download"
+msgstr "Herunterladen"
+
+#: lib/wfu_constants.php:43
+msgid "Download this file"
+msgstr "Diese datei herunterladen"
+
+#: lib/wfu_constants.php:44
+msgid "Delete"
+msgstr "Löschen"
+
+#: lib/wfu_constants.php:45
+msgid "Delete this file"
+msgstr "Diese datei löschen"
+
+#: lib/wfu_constants.php:46
+msgid "Sort list based on this column"
+msgstr "Sortieren sie diese liste auf der grundlage dieser spalte"
+
+#: lib/wfu_constants.php:47
+msgid "guest"
+msgstr "Gast"
+
+#: lib/wfu_constants.php:48
+msgid "unknown"
+msgstr "unbekannt"
+
+#: lib/wfu_constants.php:50
+msgid ""
+"Error. Could not resolve ftp target filedir. Check the domain in 'ftpinfo' "
+"attribute."
+msgstr ""
+"Fehler. Der FTP-Ordner des FTP-Ziels konnte nicht aufgelöst werden. "
+"Überprüfen Sie die Domäne in \"ftpinfo\"-Attribut."
+
+#: lib/wfu_constants.php:51
+msgid "Error. Invalid ftp information. Check 'ftpinfo' attribute."
+msgstr ""
+"Fehler. Ungültiger ftp-Informationen. Überprüfen Sie das 'ftpinfo'-Attribut."
+
+#: lib/wfu_constants.php:52
+msgid ""
+"Error. Could not extract ftp information from 'ftpinfo' attribute. Check its "
+"syntax."
+msgstr ""
+"Fehler. Ftp-Daten konnte nicht aus dem 'ftpinfo'-Attribut extrahiert werden. "
+"Überprüfen Sie die Schreibweise."
+
+#: lib/wfu_constants.php:53
+msgid ""
+"Error. Could not resolve ftp target filename. Check the domain in 'ftpinfo' "
+"attribute."
+msgstr ""
+"Fehler. Ftp-Zieldateiname konnte nicht aufgelöst werden. Überprüfen Sie die "
+"Domäne im 'ftpinfo'-Attribut."
+
+#: lib/wfu_constants.php:54
+msgid ""
+"Error. Could not open source file for ftp upload. Check if file is "
+"accessible."
+msgstr ""
+
+#: lib/wfu_constants.php:55
+msgid "Error. Could not send data to ftp target file."
+msgstr ""
+
+#: lib/wfu_constants.php:56
+msgid ""
+"Error. Could not connect to ftp host. Check the domain in 'ftpinfo' "
+"attribute."
+msgstr ""
+
+#: lib/wfu_constants.php:57
+msgid ""
+"Error. Could not authenticate to ftp host. Check username and password in "
+"'ftpinfo' attribute."
+msgstr ""
+
+#: lib/wfu_constants.php:58
+msgid ""
+"Error. Could not initialize sftp subsystem. Please check if the server "
+"supports sftp."
+msgstr ""
+
+#: lib/wfu_constants.php:59
+msgid "Error. The web server does not support sftp."
+msgstr ""
+
+#: lib/wfu_constants.php:60
+msgid ""
+"Error. The upload size limit of PHP directive upload_max_filesize is "
+"preventing the upload of big files.\n"
+"PHP directive upload_max_filesize limit is: "
+msgstr ""
+"Fehler. Die Upload-Größenbeschränkung der PHP Richtlinie upload_max_filesize "
+"hat das Hochladen von großen Dateien verhindern.\n"
+"Das upload_max_filesize-Limit beträgt derzeit:"
+
+#: lib/wfu_constants.php:61
+msgid ""
+"The upload time limit of PHP directive max_input_time is preventing the "
+"upload of big files.\n"
+"PHP directive max_input_time limit is: "
+msgstr ""
+"Die Upload-Zeitspanne der PHP-Direktive max_input_time verhindert das "
+"Hochladen von großen Dateien. \n"
+"Das max_input_time Limit ist derzeit:"
+
+#: lib/wfu_constants.php:62
+msgid ""
+"Error. Permission denied to write to target folder.\n"
+"Check and correct read/write permissions of target folder."
+msgstr ""
+"Fehler. Schreibzugriff im Zielordner verweigert. \n"
+"Prüfen und korrigieren Sie Schreib-/Lese-Berechtigungen des Zielordners."
+
+#: lib/wfu_constants.php:63
+msgid ""
+"Error. This file was rejected because its extension is not correct. Its "
+"proper filename is: "
+msgstr ""
+
+#: lib/wfu_constants.php:64
+msgid ""
+"Too many files are uploaded in a short period of time. This may be a Denial-"
+"Of-Service attack, so file was rejected. Please check the upload log for "
+"suspicious behaviour."
+msgstr ""
+
+#: lib/wfu_constants.php:65
+msgid ""
+"File not uploaded in order to prevent overflow of the website. Please "
+"contact administrator."
+msgstr ""
+
+#: lib/wfu_constants.php:66
+msgid "Target folder doesn't exist."
+msgstr ""
+
+#: lib/wfu_constants.php:67
+msgid "Upload failed! Missing a temporary folder."
+msgstr ""
+"Hochladen fehlgeschlagen! Verzeichnis für temporären Dateienupload fehlt"
+
+#: lib/wfu_constants.php:68
+msgid "Upload failed! Permission denied to write to target folder."
+msgstr ""
+"Hochladen fehlgeschlagen! Keine Berechtigung, um im Zielordner zu schreiben."
+
+#: lib/wfu_constants.php:69
+msgid "File not allowed."
+msgstr "Dateiformat nicht erlaubt"
+
+#: lib/wfu_constants.php:70
+msgid "File is suspicious and was rejected."
+msgstr "Die Datei ist verdächtig und wurde abgelehnt."
+
+#: lib/wfu_constants.php:71
+msgid "The uploaded file exceeds the file size limit."
+msgstr "Die hochzuladende Datei überschreitet das Dateigrößenlimit."
+
+#: lib/wfu_constants.php:72
+msgid "The uploaded file exceeds 2GB and is not supported by this server."
+msgstr ""
+"Die hochgeladene Datei überschreitet 2GB und wird von diesem Server nicht "
+"unterstützt."
+
+#: lib/wfu_constants.php:73
+msgid ""
+"Upload failed! The uploaded file exceeds the file size limit of the server. "
+"Please contact the administrator."
+msgstr ""
+"Hochladen fehlgeschlagen! Die hochgeladene Datei überschreitet die maximale "
+"Dateigröße des Servers. Bitte wenden Sie sich an den Administrator."
+
+#: lib/wfu_constants.php:74
+msgid ""
+"Upload failed! The duration of the upload exceeded the time limit of the "
+"server. Please contact the administrator."
+msgstr ""
+"Hochladen fehlgeschlagen! Die Dauer des Uploads liegt über dem Zeitlimit des "
+"Servers. Bitte wenden Sie sich an den Administrator oder senden Sie die "
+"Datei von einem Rechner mit schnellerer Internetverbindung."
+
+#: lib/wfu_constants.php:75
+msgid ""
+"Upload failed! The uploaded file exceeds the MAX_FILE_SIZE directive that "
+"was specified in the HTML form."
+msgstr ""
+"Hochladen fehlgeschlagen! Die hochgeladene Datei überschreitet die "
+"MAX_FILE_SIZE Richtlinie, die im HTML-Formular angegeben wurde."
+
+#: lib/wfu_constants.php:76
+msgid "Upload failed! The uploaded file was only partially uploaded."
+msgstr "Hochladen fehlgeschlagen! Die Datei wurde nur teilweise hochgeladen."
+
+#: lib/wfu_constants.php:77
+msgid "Upload failed! No file was uploaded."
+msgstr "Hochladen fehlgeschlagen! Es wurde keine Datei hochgeladen."
+
+#: lib/wfu_constants.php:78
+msgid "Upload failed! Failed to write file to disk."
+msgstr ""
+"Hochladen fehlgeschlagen! Konnte die Datei nicht auf die Festplatte "
+"schreiben."
+
+#: lib/wfu_constants.php:79
+msgid ""
+"Upload failed! Error occured while moving temporary file. Please contact "
+"administrator."
+msgstr ""
+"Hochladen fehlgeschlagen! Es ist ein Fehler aufgetreten, während der "
+"Verschiebung der temporären Datei. Bitte kontaktieren Sie Administrator."
+
+#: lib/wfu_constants.php:80 lib/wfu_constants.php:228
+msgid "Upload cancelled!"
+msgstr "Upload-abgesagt!"
+
+#: lib/wfu_constants.php:81
+msgid ""
+"Upload failed! A PHP extension stopped the file upload. PHP does not provide "
+"a way to ascertain which extension caused the file upload to stop; examining "
+"the list of loaded extensions with phpinfo() may help."
+msgstr ""
+"Hochladen fehlgeschlagen! Ein PHP-Erweiterung stoppte den Datei-Upload. PHP "
+"bietet keine Möglichkeit, festzustellen, welche PHP-Erweiterung den Datei-"
+"Upload-Stopp verursacht, zur Prüfung der Liste der geladenen Erweiterungen "
+"kann phpinfo() helfen."
+
+#: lib/wfu_constants.php:82
+msgid "Upload failed! Error occured while attemting to upload the file."
+msgstr ""
+"Hochladen fehlgeschlagen! Es sind Fehler beim Versuch, die Datei hochzuladen "
+"aufgetreten."
+
+#: lib/wfu_constants.php:83 lib/wfu_constants.php:223
+msgid "Upload failed!"
+msgstr "Hochladen fehlgeschlagen!"
+
+#: lib/wfu_constants.php:84
+msgid "No file!"
+msgstr "Keine Datei!"
+
+#: lib/wfu_constants.php:85
+msgid ""
+"Upload failed! The upload has been canceled by the user or the browser "
+"dropped the connection."
+msgstr ""
+"Hochladen fehlgeschlagen! Der Upload wurde vom Benutzer abgebrochen wurde "
+"oder der Browser hat die Verbindung verloren."
+
+#: lib/wfu_constants.php:86
+msgid "Upload failed! Unknown error."
+msgstr "Hochladen fehlgeschlagen! Unbekannter Fehler."
+
+#: lib/wfu_constants.php:87
+msgid "Please contact the administrator."
+msgstr "Bitte kontaktieren Sie den Administrator."
+
+#: lib/wfu_constants.php:88
+msgid "No result from remote server!"
+msgstr "Kein Ergebnis vom Remote-Server!"
+
+#: lib/wfu_constants.php:89
+msgid " but with warnings"
+msgstr " aber mit Warnhinweisen"
+
+#: lib/wfu_constants.php:90 lib/wfu_constants.php:92
+msgid "Warning: JSON parse error."
+msgstr "Warnung: JSON-Parser-Fehler."
+
+#: lib/wfu_constants.php:91
+msgid ""
+"Upload parameters of this file, passed as JSON string to the handler, could "
+"not be parsed."
+msgstr ""
+"Upload-Parameter dieser Datei, übergeben als als JSON String an den Handler, "
+"konnte nicht analysiert werden."
+
+#: lib/wfu_constants.php:93
+msgid ""
+"UploadStates, passed as JSON string to the handler, could not be parsed."
+msgstr ""
+"Upload-Status, übergeben als JSON String an den Handler, konnte nicht "
+"analysiert werden."
+
+#: lib/wfu_constants.php:94
+msgid ""
+"Redirection to classic form functionality occurred due to unknown error."
+msgstr ""
+"Bei der Umleitung auf die klassische Formular-Funktionalität ist ein "
+"unbekannter Fehler aufgetreten."
+
+#: lib/wfu_constants.php:95
+msgid ""
+"Redirection to classic form functionality occurred because AJAX is not "
+"supported."
+msgstr ""
+"Bei der Umleitung auf die klassische Formular-Funktionalität ist ein Fehler "
+"aufgetreten, weil AJAX nicht unterstützt wird."
+
+#: lib/wfu_constants.php:96
+msgid ""
+"Redirection to classic form functionality occurred because HTML5 is not "
+"supported."
+msgstr ""
+"Bei der Umleitung zu klassischen Formular-Funktionalität ist ein Fehler "
+"aufgetreten, da HTML5 nicht unterstützt wird."
+
+#: lib/wfu_constants.php:97
+msgid ""
+"Redirection to classic form functionality occurred due to JSON parse error."
+msgstr ""
+"Bei der Umleitung auf die klassische Formular-Funktionalität ist ein Fehler "
+"aufgetreten beim Parsen von JSON."
+
+#: lib/wfu_constants.php:98
+msgid "Please enable popup windows from the browser's settings!"
+msgstr ""
+"Bitte aktivieren Sie diese Popup-Fenster aus den Browser-Einstellungen!"
+
+#: lib/wfu_constants.php:99
+msgid "cannot be empty!"
+msgstr "darf nicht leer sein!"
+
+#: lib/wfu_constants.php:100
+msgid "number not valid!"
+msgstr "Nummer nicht gültig!"
+
+#: lib/wfu_constants.php:101
+msgid "email not valid!"
+msgstr "email adresse ist ungültig!"
+
+#: lib/wfu_constants.php:102
+msgid "emails do not match!"
+msgstr "emails stimmen nicht überein!"
+
+#: lib/wfu_constants.php:103
+msgid "no base email field in group!"
+msgstr "keine basis email feld in der gruppe!"
+
+#: lib/wfu_constants.php:104
+msgid "passwords do not match!"
+msgstr "passwörter stimmen nicht überein"
+
+#: lib/wfu_constants.php:105
+msgid "no base password field in group!"
+msgstr "keine basispasswortfeld in der gruppe!"
+
+#: lib/wfu_constants.php:106
+msgid "checkbox unchecked!"
+msgstr "checkBox nicht aktiviert!"
+
+#: lib/wfu_constants.php:107
+msgid "no option selected!"
+msgstr "keine optionen selektiert!"
+
+#: lib/wfu_constants.php:108
+msgid "no item selected!"
+msgstr "keine dateien ausgewählt!"
+
+#: lib/wfu_constants.php:109
+msgid ""
+"There are more than one instances of the plugin in this page with the same "
+"id. Please change it."
+msgstr ""
+"Es gibt mehrere Instanzen des Plugins auf dieser Seite mit der gleichen ID. "
+"Bitte ändern Sie dies."
+
+#: lib/wfu_constants.php:110
+msgid ""
+"Cannot edit the shortcode because the page has been modified. Please reload "
+"the page."
+msgstr ""
+"Der Shortcode kann nicht bearbeitet werden, da die Seite geändert wurde. "
+"Laden Sie die Seite erneut."
+
+#: lib/wfu_constants.php:111
+msgid "Your browser does not support webcam capture!"
+msgstr ""
+
+#: lib/wfu_constants.php:112
+msgid "Your browser does not support video recording from the webcam!"
+msgstr ""
+
+#: lib/wfu_constants.php:113
+msgid "No video was recorded!"
+msgstr ""
+
+#: lib/wfu_constants.php:114
+msgid ""
+"ERROR: Captcha not supported! You have an old PHP version. Upgrade your PHP "
+"or use RecaptchaV2 (no account)."
+msgstr ""
+"Fehler: Captcha nicht unterstützt! Sie haben eine alte PHP-Version. "
+"Aktualisieren Sie Ihr PHP oder RecaptchaV2 verwenden (kein Konto)."
+
+#: lib/wfu_constants.php:115
+msgid ""
+"ERROR: Only one instance of RecaptchaV1 can exist on the same page. Please "
+"notify administrator."
+msgstr ""
+
+#: lib/wfu_constants.php:116
+msgid ""
+"ERROR: Only one instance of RecaptchaV1 can exist on the same page. Please "
+"use RecaptchaV1 (no account)."
+msgstr ""
+
+#: lib/wfu_constants.php:117
+msgid "ERROR: No site key. Please contact administrator!"
+msgstr "ERROR: Keine Website-Taste. Bitte kontaktieren Sie Administrator!"
+
+#: lib/wfu_constants.php:118
+msgid ""
+"ERROR: No site key defined! Please go to the plugin settings in Dashboard to "
+"define Google Recaptcha keys."
+msgstr ""
+"Fehler: nicht vorhanden Website Schlüssel definiert! Bitte gehen Sie auf die "
+"Plugin-Einstellungen im Dashboard, um Google Recaptcha Schlüssel definieren."
+
+#: lib/wfu_constants.php:119
+msgid "Bad captcha image!"
+msgstr "Schlechten Captcha-Bild!"
+
+#: lib/wfu_constants.php:120
+msgid "No input!"
+msgstr "Keine Eingabe!"
+
+#: lib/wfu_constants.php:121
+msgid "Captcha not completed!"
+msgstr "Captcha nicht abgeschlossen!"
+
+#: lib/wfu_constants.php:122
+msgid "Wrong captcha!"
+msgstr "Falsche Captcha!"
+
+#: lib/wfu_constants.php:123
+msgid "Error refreshing captcha!"
+msgstr "Fehler erfrischenden captcha!"
+
+#: lib/wfu_constants.php:124
+msgid "Unknown captcha error!"
+msgstr "Captcha unbekannter Fehler"
+
+#: lib/wfu_constants.php:125
+msgid "Captcha not supported by your browser!"
+msgstr "Captcha von Ihrem Browser nicht unterstützt!"
+
+#: lib/wfu_constants.php:126
+msgid "the secret parameter is missing"
+msgstr "das Geheimnis Parameter fehlt"
+
+#: lib/wfu_constants.php:127
+msgid "the secret parameter is invalid or malformed"
+msgstr "das Geheimnis Parameter ist ungültig oder fehlerhaft"
+
+#: lib/wfu_constants.php:128
+msgid "the response parameter is missing"
+msgstr "die Antwort Parameter fehlt"
+
+#: lib/wfu_constants.php:129
+msgid "the response parameter is invalid or malformed"
+msgstr "die Antwort Parameter ist ungültig oder fehlerhaft"
+
+#: lib/wfu_constants.php:130
+msgid "Please do not use drag drop due to an internal problem."
+msgstr "Bitte verwenden Sie keine Drag Drop aufgrund eines internen Problems."
+
+#: lib/wfu_constants.php:131
+#, php-format
+msgid "Error during chunked upload. Unique ID empty in chunk %d"
+msgstr "Fehler beim chunked Hochladen. Eindeutige ID leer in chunk %d"
+
+#: lib/wfu_constants.php:132
+msgid "Chunked upload is not allowed!"
+msgstr "Chunked Hochladen ist nicht erlaubt!"
+
+#: lib/wfu_constants.php:133
+msgid "Chunked upload aborted due to error in previous chunk!"
+msgstr ""
+"Chunked Hochladen aufgrund eines Fehlers in früheren chunk abgebrochen!"
+
+#: lib/wfu_constants.php:134
+msgid "Chunked upload failed, final file could not be created!"
+msgstr ""
+"Chunked Hochladen fehlgeschlagen ist, konnte die letzte Datei nicht erstellt "
+"werden!"
+
+#: lib/wfu_constants.php:135
+#, php-format
+msgid "Could not write file chuck to destination on chunk %d"
+msgstr "Konnte Datei chuck bis zum Ziel nicht schreiben am chunk %d"
+
+#: lib/wfu_constants.php:136
+#, php-format
+msgid "Could not enlarge destination file on chunk %d"
+msgstr "Datei konnte nicht vergrößern am chunk %d"
+
+#: lib/wfu_constants.php:137
+#, php-format
+msgid "Could not open file handles on chunk %d"
+msgstr "Dateihandles konnte nicht geöffnet werden am chunk %d"
+
+#: lib/wfu_constants.php:138
+msgid "You are not allowed to download this file!"
+msgstr ""
+
+#: lib/wfu_constants.php:139
+msgid "File does not exist!"
+msgstr ""
+
+#: lib/wfu_constants.php:140
+msgid "Could not download file!"
+msgstr ""
+
+#: lib/wfu_constants.php:141
+msgid "You are not allowed to delete this file!"
+msgstr "Sie sind nicht berechtigt, diese Datei zu löschen!"
+
+#: lib/wfu_constants.php:142
+msgid "File was not deleted!"
+msgstr ""
+
+#: lib/wfu_constants.php:143
+msgid "No file was deleted!"
+msgstr ""
+
+#: lib/wfu_constants.php:144
+msgid "Some files were not deleted!"
+msgstr ""
+
+#: lib/wfu_constants.php:146
+msgid "Upload skipped! File already exists."
+msgstr "Hochladen abgebrochen! Datei ist bereits vorhanden."
+
+#: lib/wfu_constants.php:147
+msgid "The extension of the file does not match its contents."
+msgstr ""
+
+#: lib/wfu_constants.php:148
+msgid ""
+"Upload succeeded but the file is suspicious because its contents do not "
+"match its extension. Its proper filename is: "
+msgstr ""
+
+#: lib/wfu_constants.php:149
+msgid "No files have been selected!"
+msgstr "Keine Dateien ausgewählt!"
+
+#: lib/wfu_constants.php:150
+msgid "Please complete the consent question before continuing the upload!"
+msgstr ""
+
+#: lib/wfu_constants.php:151
+msgid "WPFilebase Plugin not updated because there were no files uploaded."
+msgstr ""
+"WPFilebase Plugin konnte nicht aktualisiert werden, da keine Dateien "
+"hochgeladen wurden."
+
+#: lib/wfu_constants.php:152
+msgid "Notification email was not sent because there were no files uploaded."
+msgstr ""
+"Benachrichtigung per E-Mail wurde nicht gesendet, weil keine Dateien "
+"hochgeladen worden sind."
+
+#: lib/wfu_constants.php:153
+msgid ""
+"Notification email was not sent because no recipients were defined. Please "
+"check notifyrecipients attribute in the shortcode."
+msgstr ""
+"Benachrichtigung per E-Mail wurde nicht gesendet, da keine Empfänger "
+"definiert wurde. Bitte überprüfen Sie das notifyrecipients-Attribut im "
+"Shortcode."
+
+#: lib/wfu_constants.php:154
+msgid ""
+"Notification email was not sent due to an error. Please check "
+"notifyrecipients, notifysubject and notifymessage attributes for errors."
+msgstr ""
+"E-Mail-Benachrichtigung wurde wegen eines Fehlers nicht gesendet. Bitte "
+"überprüfen Sie das notifysubject und das notifymessage Attribut auf Fehler."
+
+#: lib/wfu_constants.php:155
+msgid ""
+"Redirection not executed because redirection link is empty. Please check "
+"redirectlink attribute."
+msgstr ""
+"Umleitung nicht ausgeführt, da der Umleitungs-Link leer ist. Bitte "
+"überprüfen Sie das redirectlink Attribut."
+
+#: lib/wfu_constants.php:156
+msgid ""
+"Redirection not executed because not all files were successfully uploaded."
+msgstr ""
+"Umleitung nicht ausgeführt, da nicht alle Dateien erfolgreich hochgeladen "
+"wurden."
+
+#: lib/wfu_constants.php:157
+msgid "Potential Denial-Of-Service Attack on {SITE}"
+msgstr ""
+
+#: lib/wfu_constants.php:158
+msgid ""
+"Hello admin\n"
+"\n"
+"This is a message from Wordpress File Upload Plugin to notify you that a "
+"potential Denial-Of-Service attack has been detected on {SITE}.\n"
+"\n"
+"The plugin detected more than {FILENUM} uploads within {INTERVAL} seconds.\n"
+"\n"
+"All file uploads that exceed this limit are rejected to protect the website "
+"from overflowing.\n"
+"\n"
+"Please check the upload history log in the plugin's area in Dashboard for "
+"any suspicious behaviour.\n"
+"\n"
+"A new message will follow if the situation remains.\n"
+"\n"
+"Thanks"
+msgstr ""
+
+#: lib/wfu_constants.php:159
+msgid ""
+"You have activated an alternative insecure Iptanus Services Server. For "
+"details please contact info@iptanus.com."
+msgstr ""
+
+#: lib/wfu_constants.php:160
+msgid ""
+"Iptanus Services Server is unreachable. This may cause problems on some "
+"plugin functions. Please read this :article: for resolution."
+msgstr ""
+
+#: lib/wfu_constants.php:162
+msgid ""
+"Failed to add the shortcode to the page/post. Please try again. If the "
+"message persists, contact administrator."
+msgstr ""
+"Fehler beim Abrufen der Shortcode zu der Seite / Beitrag hinzuzufügen. Bitte "
+"versuche es erneut. Wenn die Meldung weiterhin, wenden Sie sich "
+"Administrator."
+
+#: lib/wfu_constants.php:163
+msgid ""
+"Failed to edit the shortcode because the contents of the page changed. Try "
+"again to edit the shortcode."
+msgstr ""
+"Der Shortcode konnte nicht bearbeitet, da sich der Inhalt der Seite geändert "
+"hat. Versuchen Sie erneut den Shortcode zu bearbeiten."
+
+#: lib/wfu_constants.php:164
+msgid ""
+"Failed to delete the shortcode because the contents of the page changed. Try "
+"again to delete it."
+msgstr ""
+"Der Shortcode konnte nicht gelöscht werden, da sich der Inhalt der Seite "
+"geändert hat. Versuchen Sie erneut den Shortcode zu löschen."
+
+#: lib/wfu_constants.php:165
+msgid ""
+"The page containing the shortcode has been modified and it is no longer "
+"valid. Please go back to reload the shortcode."
+msgstr ""
+"Die Seite mit dem Shortcode wurde modifiziert und ist nicht mehr gültig. "
+"Bitte gehen Sie zurück um zu den Shortcode zu laden."
+
+#: lib/wfu_constants.php:166
+msgid ""
+"Failed to update the shortcode because the contents of the page changed. Go "
+"back to reload the shortcode."
+msgstr ""
+"Der Shortcode konnte nicht aktualisiert werden, da sich der Inhalt der Seite "
+"geändert geändert hat. Gehen Sie zurück um zu den Shortcode neu zu laden."
+
+#: lib/wfu_constants.php:167
+msgid ""
+"Failed to update the shortcode. Please try again. If the problem persists, "
+"go back and reload the shortcode."
+msgstr ""
+"Fehler beim Aktualisieren des Schortcodes. Bitte versuchen Sie es erneut. "
+"Wenn das Problem weiterhin besteht, gehen Sie zurück und laden Sie den "
+"Shortcode neu."
+
+#: lib/wfu_constants.php:169
+msgid "This is a test message"
+msgstr "This is a test message"
+
+#: lib/wfu_constants.php:170
+msgid "This is a test administrator message"
+msgstr "Dies ist eine Test-Admin-Nachricht"
+
+#: lib/wfu_constants.php:171
+msgid "File testfile 1 under test"
+msgstr "Datei testfile 1 wird getestet"
+
+#: lib/wfu_constants.php:172
+msgid "File testfile 1 message"
+msgstr "Datei testfile 1 Nachricht"
+
+#: lib/wfu_constants.php:173
+msgid "File testfile 1 administrator message"
+msgstr "Datei testfile 1 Admin-Nachricht"
+
+#: lib/wfu_constants.php:174
+msgid "File testfile 2 under test"
+msgstr "File testfile 2  wird getestet"
+
+#: lib/wfu_constants.php:175
+msgid "File testfile 2 message"
+msgstr "Datei testfile 2 Nachricht"
+
+#: lib/wfu_constants.php:176
+msgid "File testfile 2 administrator message"
+msgstr "Datei testfile 2 Admin-Nachricht"
+
+#: lib/wfu_constants.php:178
+msgid ""
+"Insert variable %userid% inside text. It will be replaced by the id of the "
+"current user."
+msgstr ""
+"Fügen Sie die Variable %userid% in den Text ein. Sie wird durch die ID des "
+"aktuellen Benutzers ersetzt."
+
+#: lib/wfu_constants.php:179
+msgid ""
+"Insert variable %username% inside text. It will be replaced by the username "
+"of the current user."
+msgstr ""
+"Fügen Sie die Variable %username% in den Text ein. Sie wird durch den "
+"Benutzernamen des aktuellen Benutzers ersetzt."
+
+#: lib/wfu_constants.php:180
+msgid ""
+"Insert variable %useremail% inside text. It will be replaced by the email of "
+"the current user."
+msgstr ""
+"Fügen Sie die Variable %useremail% in den Text ein. Sie wird durch die E-"
+"Mail-Adresse des aktuellen Benutzers ersetzt."
+
+#: lib/wfu_constants.php:181
+msgid ""
+"Insert variable %filename% inside text. It will be replaced by the filename "
+"of the uploaded file."
+msgstr ""
+"Fügen Sie die Variable %filename% in den Text. Sie wird durch den Dateinamen "
+"der hochgeladenen Dateien ersetzt."
+
+#: lib/wfu_constants.php:182
+msgid ""
+"Insert variable %filepath% inside text. It will be replaced by the full "
+"filepath of the uploaded file."
+msgstr ""
+"Fügen Sie die Variable %filepath% in den Text ein. Sie wird durch die "
+"vollständige Dateipfad der hochgeladenen Dateien ersetzt."
+
+#: lib/wfu_constants.php:183
+msgid ""
+"Insert variable %blogid% inside text. It will be replaced by the blog id of "
+"the website."
+msgstr ""
+"Fügen Sie die Variable %blogid% in den Text ein. Sie wird durch die Blog-ID "
+"der Website ersetzt werden."
+
+#: lib/wfu_constants.php:184
+msgid ""
+"Insert variable %pageid% inside text. It will be replaced by the id of the "
+"current page."
+msgstr ""
+"Fügen Sie die Variable %pageid% in den Text ein. Sie wird durch die ID der "
+"aktuellen Seite ersetzt."
+
+#: lib/wfu_constants.php:185
+msgid ""
+"Insert variable %pagetitle% inside text. It will be replaced by the title of "
+"the current page."
+msgstr ""
+"Fügen Sie die Variable %pagetitle% in den Text ein. Sie wird durch dden "
+"Title des aktuellen Benutzers ersetzt."
+
+#: lib/wfu_constants.php:186
+msgid ""
+"Insert variable %userdataXXX% inside text. Select the user field from the "
+"drop-down list. It will be replaced by the value that the user entered in "
+"this field."
+msgstr ""
+"Fügen Sie die Variable %userdataXXX% in den Text einfügen. Wählen Sie das "
+"Feld \"Benutzer\" aus der Dropdown Liste. Die Variable wird durch den Wert "
+"ersetzt, die der Benutzer in dieses Feld eingetragen hat."
+
+#: lib/wfu_constants.php:187
+msgid "Insert variable %n% inside text to denote a line change."
+msgstr ""
+"Fügen Sie die Variable %n% in den Text ein, um eine Änderung der Zeile zu "
+"kennzeichnen."
+
+#: lib/wfu_constants.php:189
+#, php-format
+msgid "File %filename% uploaded successfully but not saved"
+msgstr ""
+
+#: lib/wfu_constants.php:190
+msgid "Test Mode"
+msgstr "Test Modus"
+
+#: lib/wfu_constants.php:191
+msgid "select dir..."
+msgstr "Wählen Sie das Verzeichnis ..."
+
+#: lib/wfu_constants.php:192
+msgid "type dir"
+msgstr "Geben Sie das Verzeichnis ein"
+
+#: lib/wfu_constants.php:193
+msgid "Upload path: %filepath%"
+msgstr "Upload-Pfad: %filepath%"
+
+#: lib/wfu_constants.php:194
+msgid "Failed upload path: %filepath%"
+msgstr "Fehlerhafter Upload-Pfad: %filepath%"
+
+#: lib/wfu_constants.php:195
+msgid " (required)"
+msgstr "(erforderlich)"
+
+#: lib/wfu_constants.php:196
+msgid "Files are being uploaded. Are you sure you want to exit the page?"
+msgstr ""
+"Dateien werden hochgeladen wird. Sind Sie sicher, dass Sie die Seite "
+"verlassen wollen?"
+
+#: lib/wfu_constants.php:197
+msgid "checking captcha..."
+msgstr "Prüfung captcha..."
+
+#: lib/wfu_constants.php:198
+msgid "refreshing..."
+msgstr "erfrischend..."
+
+#: lib/wfu_constants.php:199
+msgid "correct captcha"
+msgstr "korrekte captcha"
+
+#: lib/wfu_constants.php:200
+msgid "click to continue the upload"
+msgstr "Klicken Sie, um das Hochladen fortsetzen"
+
+#: lib/wfu_constants.php:201
+msgid "Are you sure you want to delete this file?"
+msgstr "Sind sie sicher, das sie diese datei löschen wollen?"
+
+#: lib/wfu_constants.php:202
+msgid "Are you sure you want to delete these files?"
+msgstr ""
+
+#: lib/wfu_constants.php:203
+msgid "Bulk Actions"
+msgstr ""
+
+#: lib/wfu_constants.php:204
+msgid "Apply"
+msgstr ""
+
+#: lib/wfu_constants.php:206
+msgid "of "
+msgstr "von "
+
+#: lib/wfu_constants.php:207
+msgid "Are you sure that you want to cancel the upload?"
+msgstr ""
+
+#: lib/wfu_constants.php:208
+msgid "cancel upload of this file"
+msgstr ""
+
+#: lib/wfu_constants.php:209
+msgid "Upload in progress"
+msgstr "Upload läuft"
+
+#: lib/wfu_constants.php:210
+msgid "Upload in progress with warnings!"
+msgstr "Upload läuft mit Warnhinweisen!"
+
+#: lib/wfu_constants.php:211
+msgid "Upload in progress but some files already failed!"
+msgstr "Upload läuft, aber einige Dateien bereits gescheitert!"
+
+#: lib/wfu_constants.php:212
+msgid "Upload in progress but no files uploaded so far!"
+msgstr "Upload läuft aber keine Dateien hochgeladen bis jetzt!"
+
+#: lib/wfu_constants.php:213
+msgid "All files uploaded successfully"
+msgstr "Alle Dateien erfolgreich hochgeladen"
+
+#: lib/wfu_constants.php:214
+msgid "All files uploaded successfully but there are warnings!"
+msgstr "Alle Dateien erfolgreich hochgeladen, aber es gibt Warnhinweise!"
+
+#: lib/wfu_constants.php:215
+msgid "File uploaded successfully but there are warnings!"
+msgstr "Datei erfolgreich hochgeladen, aber es gibt Warnhinweise!"
+
+#: lib/wfu_constants.php:216
+msgid "Some files failed to upload!"
+msgstr "Einige Dateien konnten nicht hochgeladen werden!"
+
+#: lib/wfu_constants.php:217
+msgid "All files failed to upload"
+msgstr "Alle Dateien konnten nicht hochgeladen werden"
+
+#: lib/wfu_constants.php:218
+msgid "File failed to upload"
+msgstr "Datei konnte nicht hochgeladen werden"
+
+#: lib/wfu_constants.php:219
+msgid "There are no files to upload!"
+msgstr "Es gibt keine Dateien zum Hochladen!"
+
+#: lib/wfu_constants.php:220
+msgid "Test upload message"
+msgstr "Test-Upload-Nachricht"
+
+#: lib/wfu_constants.php:221
+msgid "JSON parse warning!"
+msgstr "JSON parse Warnung!"
+
+#: lib/wfu_constants.php:222
+msgid "please wait while redirecting..."
+msgstr "Bitte warten Sie, Sie werden umgeleitet ..."
+
+#: lib/wfu_constants.php:224
+msgid "Submitting data"
+msgstr ""
+
+#: lib/wfu_constants.php:225
+msgid "Data submitted successfully!"
+msgstr ""
+
+#: lib/wfu_constants.php:226
+msgid "Data were not submitted!"
+msgstr ""
+
+#: lib/wfu_constants.php:227
+msgid "Cancelling upload"
+msgstr ""
+
+#: lib/wfu_constants.php:229
+msgid "Upload succeeded!"
+msgstr ""
+
+#: lib/wfu_constants.php:230
+msgid "Upload completed but no files were saved!"
+msgstr ""
+
+#: lib/wfu_constants.php:231
+msgid "File was not saved due to personal data policy!"
+msgstr ""
+
+#: lib/wfu_constants.php:232
+msgid "Open visual shortcode editor in new window"
+msgstr "Offenen des visuellen Shortcode-Editor in neuem Fenster"
+
+#: lib/wfu_constants.php:233
+msgid "loading visual editor"
+msgstr "visueller Editor laden"
+
+#: lib/wfu_constants.php:234
+msgid "Clear file list?"
+msgstr "Klar Dateiliste?"
+
+#: lib/wfu_constants.php:235
+msgid "DROP HERE"
+msgstr "HIER ABLEGEN"
+
+#: lib/wfu_constants.php:237
+msgid "record video"
+msgstr ""
+
+#: lib/wfu_constants.php:238
+msgid "take a picture"
+msgstr ""
+
+#: lib/wfu_constants.php:239
+msgid "turn webcam on/off"
+msgstr ""
+
+#: lib/wfu_constants.php:240
+msgid "go live again"
+msgstr ""
+
+#: lib/wfu_constants.php:241
+msgid "end recording"
+msgstr ""
+
+#: lib/wfu_constants.php:242
+msgid "play"
+msgstr ""
+
+#: lib/wfu_constants.php:243
+msgid "pause"
+msgstr ""
+
+#: lib/wfu_constants.php:244
+msgid "go to the beginning"
+msgstr ""
+
+#: lib/wfu_constants.php:245
+msgid "go to the end"
+msgstr ""
+
+#: lib/wfu_constants.php:247
+msgid "Wordpress File Upload Form"
+msgstr "Wordpress Datei Upload Formular"
+
+#: lib/wfu_constants.php:248
+msgid "Wordpress File Upload plugin uploader for sidebars"
+msgstr "Wordpress Datei Upload Plugin Uploader für Seitenleisten"
+
+#: lib/wfu_constants.php:249
+msgid "Upload Files"
+msgstr "Dateien hochladen"
+
+#~ msgid "Targer folder doesn't exist."
+#~ msgstr "Ziel-Ordner nicht vorhanden ist."
+
+#~ msgid "New title"
+#~ msgstr "Neuer titel"

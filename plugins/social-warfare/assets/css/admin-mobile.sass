@@ -1,0 +1,155 @@
+/**
+ * Mobile styles for the admin options
+ * ---
+ * @since 3.3.4 | 25 SEP 2018
+ */
+// Mobile Styles
+@media screen and (max-width: 767px)
+	// fix body padding for mobile
+	.auto-fold #wpcontent
+		padding-left: 0
+
+	// Header menu styles
+	.sw-header-wrapper
+		padding: 50px 10px 0
+
+	.sw-top-menu
+		// overwriting settings set in javascript
+		width: 100% !important
+		left: 0 !important
+		top: 0 !important
+		position: relative !important
+		.sw-grid
+			clear: both
+			width: 100%
+		// save button fixed to top
+		.sw-grid.sw-fit
+			position: fixed
+			top: 45px
+			left: -1px
+			width: 100%
+			background-color: #ffffff
+			padding: 0 5%
+			border-top: 1px solid #CED3DC
+			border-bottom: 1px solid #CED3DC
+			a
+				width: 90%
+				float: none
+				margin: 5px 0
+		// logo
+		.sw-header-logo, &[sw-registered="1"] .sw-header-logo-pro
+			clear: both
+			float: none
+			height: 55px
+			margin-left: 10px
+			margin-bottom: -15px
+		// menu items
+		ul > li
+			height: 45px
+
+	//content wrapper
+	.sw-admin-wrapper
+		padding-top: 20px !important
+		padding: 0 10px
+
+	.sw-admin-settings-form
+		clear: both
+
+		.sw-tabs-container
+			width: 100%
+
+			> .sw-admin-tab > .sw-grid > .sw-grid:last-child
+				width: auto !important
+
+			#swp_styles
+				.sw-option-container
+					float: none
+					clear: both
+
+				> .sw-grid, > .sw-grid > .sw-grid
+					width: 100%
+					p
+						padding-left: 0
+
+			#swp_social_identity
+				.sw-grid
+					width: 100%
+					p
+						padding-left: 0
+				.twitter_shares_wrapper
+					a
+						white-space: normal
+						line-height: 1.5
+					.sw-checkbox-toggle
+						float: none
+
+			#swp_registration
+				.sw-grid
+					width: 100%
+					p
+						padding-left: 0
+				a:not(.swp_support_link)
+					width: 100%
+
+	.sw-admin-sidebar
+		clear: both
+		width: 100%
+
+// Tablet Styles
+@media screen and (min-width: 768px) and (max-width: 1100px)
+	// Header menu styles
+	.sw-header-wrapper
+		padding: 50px 10px 0
+
+	.sw-top-menu
+		// overwriting settings set in javascript
+		width: 95% !important
+		left: auto !important
+		top: 45px !important
+		position: fixed !important
+		.sw-grid
+			clear: none
+			width: 100%
+			@media (min-width: 820px)
+				padding: 0
+				float: left
+				width: 80%
+				margin: 0
+				clear: none
+			@media (min-width: 961px)
+				width: 70%
+		// save button fixed to top
+		.sw-grid.sw-fit
+			padding: 0 10px
+			border: none
+			a
+				width: auto
+				float: none
+				margin: 5px 0 10px
+			@media (min-width: 820px)
+				padding: 0
+				float: left
+				width: 20%
+				clear: none
+		// logo
+		.sw-header-logo, &[sw-registered="1"] .sw-header-logo-pro
+			clear: none
+			float: left
+			height: 55px
+			margin-left: 10px
+			margin-bottom: -15px
+		// menu items
+		.sw-header-menu
+			height: auto
+		ul > li
+			height: 55px
+
+	.sw-admin-settings-form
+		clear: both
+
+		.sw-tabs-container
+			width: 100%
+
+	.sw-admin-sidebar
+		clear: both
+		width: 100%

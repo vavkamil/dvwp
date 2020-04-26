@@ -1,0 +1,24 @@
+.clearBlock{clear:both}
+.WPBlockSearch{background:#fafafa;float:left;width:27.33%;margin:2em .5em 0;border:1px solid #656565;padding:.5em .8em;-moz-box-shadow:1px 1px 1px 0px #656565;-webkit-box-shadow:1px 1px 1px 0px #656565;-o-box-shadow:1px 1px 1px 0px #656565;box-shadow:1px 1px 1px 0px #656565;filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=1);-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+.WPbeforeResults{}
+.WPAdvancedSearch h3{font-size:1.2em;margin-bottom:.5em}
+.searchNbResults {font-size:.9em;font-style:italic;color:#555}
+.WPcorrections {margin-bottom:.6em}
+.WPFirstSearch {margin-bottom:.6em;text-align;center}
+.WPFirstSearch a{font-size:1.15em;color:#000;text-align:center;display:block;text-decoration:none}
+.WPFirstSearch a:hover{text-decoration:underline}
+.WPSecondSearch{font-size:.8em;text-align:center;margin-bottom:1.6em}
+.WPcorrections a,.WPcommentSearch a,.WPauthorSearch a,.WPcategorySearch a,.WPtextSearch a{color:#000;text-decoration:none}
+.WPcorrections a:hover,.WPcommentSearch a:hover,.WPauthorSearch a:hover,.WPcategorySearch a:hover,.WPtextSearch a:hover{text-decoration:underline}
+.WPdateSearch,.WPauthorSearch,.WPcategorySearch,.WPtextSearch{}
+.WPcommentSearch {clear:both}
+.WPcommentSearch:before{content:"(";color:#555}
+.WPcommentSearch:after{content:")";color:#555}
+.WPnumberSearch{display:block;width:10%;font-size:.9em;margin:.5em auto .8em;text-align:center;color:#656565;background:#FFF;padding:.3em .6em;-moz-box-shadow:1px 1px 3px 0px #656565;-webkit-box-shadow:1px 1px 3px 0px #656565;-o-box-shadow:1px 1px 3px 0px #656565;box-shadow:1px 1px 3px 0px #656565;filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=3);-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+.WPBlockContent img {display:block;max-width:100%;margin:0 auto 1.1em auto;-moz-box-shadow:1px 1px 3px 0px #656565;-webkit-box-shadow:1px 1px 3px 0px #656565;-o-box-shadow:1px 1px 3px 0px #656565;box-shadow:1px 1px 3px 0px #656565;filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=3)}
+.WPtextSearch{font-size:.8em;color:#555;text-align:justify;margin-bottom:.5em}
+.WPReadMoreSearch{clear:both;margin:1.6em 0 1.3em;text-align:center}
+.WPReadMoreSearch a{color:#656565;text-decoration:none;background:#FFF;padding:.3em .6em;-moz-box-shadow:1px 1px 3px 0px #656565;-webkit-box-shadow:1px 1px 3px 0px #656565;-o-box-shadow:1px 1px 3px 0px #656565;box-shadow:1px 1px 3px 0px #656565;filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=3);-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+.WPReadMoreSearch a:hover{text-decoration:none;color:#222;-moz-box-shadow:1px 1px 3px 0px #222;-webkit-box-shadow:1px 1px 3px 0px #222;-o-box-shadow:1px 1px 3px 0px #222;box-shadow:1px 1px 3px 0px #222;filter:progid:DXImageTransform.Microsoft.Shadow(color=#222, Direction=134, Strength=3)}
+.WPReadMoreSearch:after{clear:both}
+.WPbeforeResults .WPBlockSearch .WPErrorSearch{}

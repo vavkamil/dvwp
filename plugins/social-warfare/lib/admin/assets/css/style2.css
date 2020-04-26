@@ -1,0 +1,172 @@
+.sw-tweet-clear {
+	zoom: 1;
+}
+.sw-tweet-clear:after {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	content: ".";
+}
+.sw-click-to-tweet {
+	display: block;
+	background-color: #FFF;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	border: 4px double #DDD;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	padding: 30px 30px;
+	margin: 15px 0px;
+	zoom: 1;
+}
+.sw-click-to-tweet .clearfix {
+	zoom: 1;
+}
+.sw-click-to-tweet .clearfix:after {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	content: ".";
+}
+.sw-click-to-tweet .clear {
+	clear: both;
+}
+.sw-click-to-tweet .f-left {
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+.sw-click-to-tweet .f-right {
+	float: right;
+	display: inline-block;
+	position: relative;
+}
+.sw-click-to-tweet .list-reset {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sw-click-to-tweet .list-reset li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sw-click-to-tweet .list-float {
+	zoom: 1;
+}
+.sw-click-to-tweet .list-float:after {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	content: ".";
+}
+.sw-click-to-tweet .list-float li {
+	float: left;
+	display: inline-block;
+}
+.sw-click-to-tweet .kill-box-shadow {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+.sw-click-to-tweet .alignright {
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	text-align: right;
+}
+.sw-click-to-tweet .alignleft {
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	text-align: right;
+}
+.sw-click-to-tweet:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.sw-click-to-tweet .sw-ctt-reset {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.sw-click-to-tweet:after {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	content: ".";
+}
+.sw-click-to-tweet a {
+	text-decoration: none;
+	text-transform: none;
+}
+.sw-click-to-tweet a:hover {
+	text-decoration: none;
+}
+.sw-click-to-tweet .sw-ctt-text {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	margin-bottom: 10px;
+	word-wrap: break-word;
+}
+a .sw-click-to-tweet .sw-ctt-text {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	color: #777;
+	font-size: 24px;
+	line-height: 140%;
+	text-transform: none;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: none;
+	font-style: italic;
+	display:block;
+}
+a:hover .sw-click-to-tweet .sw-ctt-text {
+	text-decoration: none;
+	color: #666666;
+}
+.sw-click-to-tweet .sw-ctt-btn {
+	margin: 0;
+	padding: 3px;
+	position: relative;
+	display: block;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 100%;
+	color: #999999;
+	float: right;
+	padding-right: 24px;
+	text-decoration: none;
+	background: transparent url("//4.bp.blogspot.com/-Ku-iYrKVffw/VHjB2LFSO1I/AAAAAAAAEyI/NDiWlshts4M/s1600/twitter-little-bird.png") no-repeat right top;
+}
+a:hover .sw-click-to-tweet .sw-ctt-btn{
+	text-decoration: none;
+	color: #666666;
+	text-transform: uppercase;
+}
+.sw-click-to-tweet .sw-powered-by {
+	font-size: 10px;
+	color: #999999;
+}
+.sw-click-to-tweet .sw-powered-by a {
+	font-size: 10px;
+	color: #999999 !important;
+}
+.sw-click-to-tweet .sw-powered-by a:hover {
+	color: #999999 !important;
+	text-decoration: underline !important;
+}

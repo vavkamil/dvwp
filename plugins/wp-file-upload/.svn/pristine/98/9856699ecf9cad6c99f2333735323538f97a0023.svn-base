@@ -1,0 +1,1 @@
+input.file_input_textbox{position:relative}input.file_input_textbox:disabled{position:relative}input.file_input_textbox_nofile{position:relative}input.file_input_hidden{font-size:45px;position:absolute;right:0;top:0;margin:0;padding:0;-moz-opacity:0;-khtml-opacity:0;opacity:0}

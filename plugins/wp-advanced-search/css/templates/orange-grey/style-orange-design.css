@@ -1,0 +1,30 @@
+.clearBlock{clear:both}
+.WPBlockSearch{background:#fff;padding:.5em .5em .1em;margin-bottom:1em;border:1px solid #8b8b8b}
+.WPBlockSearch:hover {background:#fafafa}
+.WPBlockSearch p.WPFirstSearch, .WPBlockSearch p.WPSecondSearch{margin-top:0 !important}
+.searchNbResults {margin-bottom:1.8em;color:#111;font-size:.9em;font-style:italic}
+.WPcorrections {margin:.6em 0;color:#111;font-style:italic}
+.WPcorrections a{color:#ffa800}
+.WPcorrections a:hover{text-decoration:none}
+.WPFirstSearch{background:#404040}
+.WPFirstSearch:hover{background:#8b8b8b}
+.WPFirstSearch a{color:#fff;text-decoration:none;padding-left:.5em}
+.WPFirstSearch a:hover,.WPcommentSearch a:hover,.WPReadMoreSearch a:hover,.WPtextSearch a:hover{text-decoration:none}
+.WPSecondSearch{margin:.2em 0 .7em;color:#8b8b8b;font-style:italic}
+.WPdateSearch,.WPauthorSearch,.WPcategorySearch,.WPtextSearch{font-size:.8em}
+.WPauthorSearch a,.WPcategorySearch a{color:#8b8b8b}
+.WPauthorSearch a:hover,.WPcategorySearch a:hover{text-decoration:none}
+.WPcommentSearch{clear:both}
+.WPcommentSearch a{font-size:.8em;margin-left:.8em;color:#8b8b8b;text-decoration:none;font-style:italic}
+.WPcommentSearch a:hover{text-decoration:underline}
+.WPnumberSearch{background:#ffa800;padding:.3em .6em;float:left;color:#fff}
+.WPtitleSearch{padding:.3em .1em;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#fff}
+.WPBlockContent{margin-bottom:1em}
+.WPBlockContent img {float:left;width:14%;margin-right:.5em;border:1px solid #111}
+.WPtextSearch a{color:#111;text-decoration:none}
+.WPtextSearch a:hover{text-decoration:underline}
+.WPtextSearch strong{font-weight:normal}
+.WPReadMoreSearch{margin-top:1em;clear:both}
+.WPReadMoreSearch a{float:right;font-size:1.1em;color:#fff;text-decoration:none;background:#ffa800;padding:.5em}
+.WPReadMoreSearch a:hover{background:#404040;text-decoration:none}
+.WPErrorSearch{font-size:1.1em}

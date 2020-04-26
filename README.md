@@ -1,6 +1,7 @@
 # Damn Vulnerable WordPress
 
 Playground for WordPress hacking and [wpscan](https://github.com/wpscanteam/wpscan) testing.
+*DO NOT EXPOSE THIS TO INTERNET!*
 
 ## Installation
 
@@ -8,6 +9,7 @@ Playground for WordPress hacking and [wpscan](https://github.com/wpscanteam/wpsc
 $ git clone https://github.com/vavkamil/dvwp.git
 $ cd dvwp/
 $ docker-compose up -d --build
+$ docker-compose run --rm wp-cli install-wp
 ```
 
 ## Usage
@@ -17,13 +19,13 @@ $ docker-compose down
 ```
 
 ## Shell
-`docker exec -ti dvwp_wp_1 /bin/bash`
+`docker exec -ti dvwp_wordpres_1 /bin/bash`
 
 ## Interface
 
 * [http://127.0.0.1:1337](http://127.0.0.1:1337)
 * [http://127.0.0.1:1337/wp-login.php](http://127.0.0.1:1337/wp-login.php)
-* [http://127.0.0.1:1337/phpmyadmin/](http://127.0.0.1:1337/phpmyadmin/)
+* [http://127.0.0.1:1338/phpmyadmin/](http://127.0.0.1:1338/phpmyadmin/)
 
 ## Credentials
 * Wordpress: admin/admin
@@ -32,6 +34,8 @@ $ docker-compose down
 ## Vulnerabilities
 
 Feel free to contribute with pull requests ;)
+
+### Plugins
 
 * [InfiniteWP Client < 1.9.4.5 - Authentication Bypass](https://wpvulndb.com/vulnerabilities/10011)
   - CVE-2020-8772
@@ -47,12 +51,28 @@ Feel free to contribute with pull requests ;)
 
 * [Backup and Staging by WP Time Capsule < 1.21.16 - Authentication Bypass](https://wpvulndb.com/vulnerabilities/10010)
   - CVE-2020-8771
+  - NOT WORKING RIGHT NOW
 
 * []()
   - 
 
-* []()
-  - 
+### Otherz
 
-* []()
-  - 
+* Directory listing
+* display_errors
+* info.php
+* dump.sql
+* adminer.php
+* search-replace-db
+* cross-domain
+
+## TODO
+1. Add versions and description to each vulnerability in README.md
+2. Upload docker image to Docker Hub registry
+3. Get rid of the Dockerfile
+4. Run wp-cli automatically during build
+5. Use "svn co" or "wp-cli" to download vulnerable plugins directly
+6. Add more vulnerable plugins/themes
+7. Update WP and php to latest
+8. Add vulnerable phpmyadmin?
+9. Add script to pull `access.log` and `error.log` from container

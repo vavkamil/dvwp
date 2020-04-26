@@ -1,0 +1,1 @@
+!function(a){var b={target:ASTrigger.ajaxurl,limit:ASTrigger.limitR,nbResult:jQuery(".WPAdvancedSearch").attr("id"),duration:ASTrigger.duration,classLast:".WPBlockSearch",loadImg:ASTrigger.loadImg,idImg:"imgLoading",attrID:"id",evt:"click"},c={action:"ajaxTrigger",queryNameAS:ASTrigger.nameSearch+"="+ASTrigger.query};a("#loadMore").ajaxTrigger(b,c)}(jQuery);
