@@ -24,9 +24,9 @@ $ docker-compose down
 
 ## Interface
 
-* [http://127.0.0.1:1337](http://127.0.0.1:1337)
-* [http://127.0.0.1:1337/wp-login.php](http://127.0.0.1:1337/wp-login.php)
-* [http://127.0.0.1:1338/phpmyadmin/](http://127.0.0.1:1338/phpmyadmin/)
+* [http://127.0.0.1:31337](http://127.0.0.1:31337)
+* [http://127.0.0.1:31337/wp-login.php](http://127.0.0.1:31337/wp-login.php)
+* [http://127.0.0.1:31338/phpmyadmin/](http://127.0.0.1:31338/phpmyadmin/)
 
 ## Credentials
 * Wordpress: admin/admin
