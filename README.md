@@ -20,7 +20,7 @@ $ docker-compose down
 ```
 
 ## Shell
-`docker exec -ti dvwp_wordpres_1 /bin/bash`
+`docker exec -ti dvwp_wordpress_1 /bin/bash`
 
 ## Interface
 
