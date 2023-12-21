@@ -1,0 +1,29 @@
+stages:
+  - all-in-one
+
+variables:
+  DOCKER_DRIVER: overlay2
+  DOCKER_HOST: tcp://docker:2375/
+  DOCKER_TLS_CERTDIR: ""
+
+all-in-one:
+  stage: all-in-one
+  image: docker:latest
+  services:
+    - name: docker:dind
+      command: ["--tls=false"]
+  script:
+    - docker-compose up -d --build
+    - >
+      until docker-compose exec mysql mysql -u root -ppassword -e 'SELECT 1'; do
+        echo "Waiting for MySQL to be ready..."
+        sleep 5
+      done
+    - docker-compose run --rm wp-cli install-wp
+    - sleep 10
+    - docker pull wpscanteam/wpscan
+    - sleep 5
+    - docker run --network dvwp_default wpscanteam/wpscan wpscan --url http://wordpress/
+    - docker-compose down
+  only:
+    - master
