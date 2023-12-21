@@ -1,0 +1,50 @@
+stages:
+  - build
+  - test
+  - cleanup
+
+variables:
+  DOCKER_DRIVER: overlay2
+  DOCKER_HOST: tcp://docker:2375/
+  DOCKER_TLS_CERTDIR: ""
+
+default:
+  image: docker:latest
+  services:
+    - name: docker:dind
+      command: ["--tls=false"]
+
+build:
+  stage: build
+  script:
+    - docker-compose up -d --build
+    - >
+      until docker-compose exec mysql mysql -u root -ppassword -e 'SELECT 1'; do
+        echo "Waiting for MySQL to be ready..."
+        sleep 5
+      done
+    - docker-compose run --rm wp-cli install-wp
+  only:
+    - master
+
+test:
+  image: docker:latest
+  services:
+    - name: wpscanteam/wpscan
+      alias: wpscan
+  stage: test
+  script:
+    - docker-compose up -d
+    - sleep 10
+    - wpscan --url http://wordpress:31337
+  allow_failure: true
+  only:
+    - master
+
+cleanup:
+  stage: cleanup
+  script:
+    - docker-compose down
+  only:
+    - master
+
