@@ -1,21 +1,17 @@
 stages:
-  - build
-  - test
-  - cleanup
+  - all-in-one
 
 variables:
   DOCKER_DRIVER: overlay2
   DOCKER_HOST: tcp://docker:2375/
   DOCKER_TLS_CERTDIR: ""
 
-default:
+all-in-one:
+  stage: all-in-one
   image: docker:latest
   services:
     - name: docker:dind
       command: ["--tls=false"]
-
-build:
-  stage: build
   script:
     - docker-compose up -d --build
     - >
@@ -24,27 +20,10 @@ build:
         sleep 5
       done
     - docker-compose run --rm wp-cli install-wp
-  only:
-    - master
-
-test:
-  image: docker:latest
-  services:
-    - name: wpscanteam/wpscan
-      alias: wpscan
-  stage: test
-  script:
-    - docker-compose up -d
     - sleep 10
-    - wpscan --url http://wordpress:31337
-  allow_failure: true
-  only:
-    - master
-
-cleanup:
-  stage: cleanup
-  script:
+    - docker pull wpscanteam/wpscan
+    - sleep 5
+    - docker run --network dvwp_default wpscanteam/wpscan wpscan --url http://wordpress/
     - docker-compose down
   only:
     - master
-
