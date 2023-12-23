@@ -23,7 +23,7 @@ all-in-one:
     - sleep 10
     - docker pull wpscanteam/wpscan
     - sleep 5
-    - docker run --network dvwp_default wpscanteam/wpscan wpscan --url http://wordpress/
+    - docker run --network dvwp_default wpscanteam/wpscan wpscan --url http://wordpress/ --force
     - docker-compose down
   only:
     - master
