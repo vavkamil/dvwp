@@ -9,25 +9,14 @@ jobs:
   all-in-one:
     runs-on: ubuntu-latest
 
-    services:
-      docker:
-        image: docker:dind
-        options: --privileged --tls=false
-        env:
-          DOCKER_TLS_CERTDIR: ""
-        ports:
-          - 2375:2375
-
     steps:
     - name: Check out repository
       uses: actions/checkout@v3
 
-    - name: Set up Docker environment
-      run: |
-        echo "DOCKER_DRIVER=overlay2" >> $GITHUB_ENV
-        echo "DOCKER_HOST=tcp://localhost:2375/" >> $GITHUB_ENV
+    - name: Set up Docker
+      run: sudo service docker start
 
-    - name: Run Docker Compose and WPScan
+    - name: Run Docker Compose and WP CLI
       run: |
         docker-compose up -d --build
         until docker-compose exec mysql mysql -u root -ppassword -e 'SELECT 1'; do
