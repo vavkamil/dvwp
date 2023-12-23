@@ -16,7 +16,7 @@ jobs:
     - name: Set up Docker
       run: sudo service docker start
 
-    - name: Run Docker Compose and WPScan
+    - name: Build DVWP Docker Compose
       run: |
         docker-compose up -d --build
         echo "Waiting for MySQL to be ready..."
@@ -26,8 +26,12 @@ jobs:
         done
         echo "MySQL is ready."
         docker-compose run --rm wp-cli install-wp
-        sleep 10
+
+    - name: Run WPScan
+      run: |
         docker pull wpscanteam/wpscan
-        sleep 5
         docker run --network dvwp_default wpscanteam/wpscan wpscan --url http://wordpress/ --force
-        docker-compose down
+
+    - name: Cleanup Docker Compose Services
+      run: docker-compose down
+
