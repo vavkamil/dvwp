@@ -12,7 +12,7 @@ jobs:
     services:
       docker:
         image: docker:dind
-        options: --tls=false
+        options: --privileged --tls=false
         env:
           DOCKER_TLS_CERTDIR: ""
         ports:
