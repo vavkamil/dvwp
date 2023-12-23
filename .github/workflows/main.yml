@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  all-in-one:
+  build-n-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,13 +16,15 @@ jobs:
     - name: Set up Docker
       run: sudo service docker start
 
-    - name: Run Docker Compose and WP CLI
+    - name: Run Docker Compose and WPScan
       run: |
         docker-compose up -d --build
-        until docker-compose exec mysql mysql -u root -ppassword -e 'SELECT 1'; do
-          echo "Waiting for MySQL to be ready..."
+        echo "Waiting for MySQL to be ready..."
+        until docker-compose exec -T mysql mysql -u root -ppassword -e 'SELECT 1'; do
+          echo "Still waiting for MySQL..."
           sleep 5
         done
+        echo "MySQL is ready."
         docker-compose run --rm wp-cli install-wp
         sleep 10
         docker pull wpscanteam/wpscan
